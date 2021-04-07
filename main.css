@@ -1,0 +1,100 @@
+*{margin:0; padding: 0;}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_txt{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 15px;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.a_txt{
+    text-decoration: none;
+    color: black;
+}
+.h_txt{
+    font-family: 'GongGothicMedium';
+    font-size: 40px;
+    text-align: left;
+    padding-top: 1100px;
+    padding-left: 220px;
+}
+.h_txt2{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 220px;
+}
+.h_btn{
+    width: 120px;
+    height: 40px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 220px;
+}
+.m_txt{
+    font-family: 'GongGothicMedium';
+    font-size: 40px;
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 220px;
+}
+.m_txt2{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 220px;
+}
+.m_btn{
+    width: 120px;
+    height: 40px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 220px;
+}
+.b_txt{
+    font-family: 'GongGothicMedium';
+    font-size: 40px;
+    text-align: left;
+    padding-top: 400px;
+    padding-left: 220px;
+}
+.b_txt2{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 220px;
+}
+.b_btn{
+    width: 120px;
+    height: 40px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 220px;
+}
+/* footer css 수정 */
+/*.member{text-align: center;}
+.developer{
+    font-family: 'GongGothicMedium';
+    font-size: 15px;
+    padding-top: 400px;
+}*/
