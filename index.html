@@ -8,13 +8,6 @@
     <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-    <!--background-->
-    <style>
-        body{
-            background-image: url('main.jpg');
-            background-size : cover ;
-        }
-    </style>
     <!--main css-->
     <link rel="stylesheet" href="main.css">
     <!--icon-->
@@ -22,18 +15,23 @@
     <title>Make Ur Day</title>
 </head>
 <body>
-    <!--nav-->
-    <div>
-      <ul class = "nav_txt">
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">HOME</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">QRCODE</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#story" class="a_txt">STORY</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">GAME</a></li>
-      </ul>  
-    </div>
+    <header>
+        <!--nav-->
+        <nav>
+            <ul>
+                <li style="color :black" class = "nav_txt"><a href="#home" class="a_txt">HOME</a></li> <!--a name태그로 이동-->
+                <li style="color :black" class = "nav_txt"><a href="#qrCode" class="a_txt">QRCODE</a></li>
+                <li style="color :black" class = "nav_txt"><a href="#story" class="a_txt">STORY</a></li>
+                <li style="color :black" class = "nav_txt"><a href="#game" class="a_txt">GAME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a name = "home">
+
     <!--스토리-->
     <div>
-        <div class ="h_txt" id = "story">
+        <div class ="h_txt">
+            <a name = "story">
             <span style="color: #2B4235;">넘쳐흐르는 쓰레기,<br>어떻게 해결해야 할까?</span>
         </div>
         <div class = "h_txt2">
@@ -81,5 +79,9 @@
             </div>
         </div>
     </footer>-->
+    <!--임시 nav바 QRCODE,GAME 위치 (링크 확인용)-->
+    <a name = "qrCode">
+    <a name = "game">
+
 </body>
 </html>
