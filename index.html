@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preload" href="배경_메인페이지.jpg" as="style" crossorigin="crossorigin"> 
+    <link rel="preload" href="image/배경_메인페이지.jpg" as="style" crossorigin="crossorigin"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,39 +17,43 @@
     <!--background-->
     <style>
         body{
-            background-image: url('main.jpg');
+            background-image: url('image/main.jpg');
             background-size : cover ;
         }
     </style>
     <!--main css-->
     <link rel="stylesheet" href="main.css">
     <!--icon-->
-    <link href="아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
+    <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
 </head>
 <body>
-    <!--nav-->
-    <div>
-      <ul class = "nav_txt">
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">HOME</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">QRCODE</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#story" class="a_txt">STORY</a></li>
-          <li style="color :black" class = "nav_txt"><a href="#" class="a_txt">GAME</a></li>
-      </ul>  
-    </div>
+    <header>
+        <!--nav-->
+        <nav>
+            <ul>
+                <li style="color :black" class = "nav_txt"><a href="#home" class="a_txt">HOME</a></li> <!--a name태그로 이동-->
+                <li style="color :black" class = "nav_txt"><a href="#qrCode" class="a_txt">QRCODE</a></li>
+                <li style="color :black" class = "nav_txt"><a href="#story" class="a_txt">STORY</a></li>
+                <li style="color :black" class = "nav_txt"><a href="#game" class="a_txt">GAME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a name = "home">
     <!--스토리-->
     <script> 
         AOS.init(); 
     </script>
     <div>
-        <div class ="h_txt" id = "story" data-aos="fade-up">
+        <div class ="h_txt" data-aos="fade-up">
+            <a name = "story">
             <span style="color: #2B4235;">넘쳐흐르는 쓰레기,<br>어떻게 해결해야 할까?</span>
         </div>
         <div class = "h_txt2" data-aos="fade-up">
             <span style="color:#2B4235">요즘 코로나 19의 확산에 쓰레기 포화 상태가 더 가속화 되고 있어.<br>비대면 소비 증가로 인해 비닐과 플라스틱 등의<br>포장재 폐기물 발생량이 20% 증가했기 때문이야.</span>
         </div>
         <div>
-        <a href="story1.html"><img src="버튼_자세히보기.png" alt="" class = "h_btn"></a>
+        <a href="story1.html"><img src="image/버튼_자세히보기.png" alt="" class = "h_btn"></a>
         </div>
     </div>
     <div>
@@ -61,7 +65,7 @@
             <span style="color:#2B4235">땅 속의 빈틈을 채우고 있는 지하수가 더렵혀지고 있어.<br>토양에 축적된 오염 물질이 땅 속으로 흘러 들어가기 때문이야.</span>
         </div>
         <div>
-        <a href="story2.html"><img src="버튼_자세히보기.png" alt="" class = "m_btn"></a>
+        <a href="story2.html"><img src="image/버튼_자세히보기.png" alt="" class = "m_btn"></a>
         </div>
     </div>
     <div>
@@ -72,23 +76,16 @@
             <span style="color:#2B4235">태평양에는 '태평양 쓰레기 섬'이라고 불리는 쓰레기 더미가 있어.<br>이 섬은 우리 인간들이 일회용품을 흔하게 쓰기 시작하면서부터 만들어졌지.</span>
         </div>
         <div>
-        <a href="story3.html"><img src="버튼_자세히보기.png" alt="" class = "b_btn"></a>
+        <a href="story3.html"><img src="image/버튼_자세히보기.png" alt="" class = "b_btn"></a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/hi098123/prism-for-tistory/prism.js"></script>
-    <!--footer-->
-    <!--<footer>
-        <div class = "member">
-            <div>
-                <span class = "developer">개발</span>
-            </div>
-            <div class = "sw_member">
-                <span class = "member_1">2113 윤채원</span>
-                <span class = "member_2">2118 조혜라</span>
-                <span class = "member_3">2207 김하늘</span>
-                <span class = "member_4">2412 오윤서</span>
-            </div>
-        </div>
-    </footer>-->
+
+    
+    <!--임시 nav바 QRCODE,GAME 위치 (링크 확인용)-->
+    <a name = "qrCode">
+    <a name = "game">
+    <a href="footer.html">
+
 </body>
 </html>
