@@ -105,3 +105,94 @@ header{
 .h_txt .h_txt2{
     opacity:0;
 }
+
+
+/* 반응형 */
+@media all and (max-width:767px){
+    body{
+        background-image: url('image/MainImage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    header{
+        position:fixed;
+        right: 0cm;
+    }
+    .nav_txt{
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 12px;
+        float: right;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 15px;
+    
+    }
+    .a_txt{
+        text-decoration: none;
+        color: black;
+    }
+    .h_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: left;
+        padding-top: 360px;
+        padding-left: 20px;
+    }
+    .h_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .h_btn{
+        width: 80px;
+        height: 25px;
+        float: left;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .m_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: right;
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .m_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: right;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-right: 20px;
+    }
+    .m_btn{
+        width: 80px;
+        height: 25px;
+        float: right;
+        padding-top: 13px;
+        padding-right: 20px;
+    }
+    .b_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: left;
+        padding-top: 150px;
+        padding-left: 20px;
+    }
+    .b_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .b_btn{
+        width: 80px;
+        height: 25px;
+        float: left;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+}
