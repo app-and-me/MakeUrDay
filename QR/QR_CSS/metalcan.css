@@ -18,7 +18,7 @@
 }
 
 /* 반응형 */
-@media all and (min-width:768px) and (max-width:1023px) {
+/*@media all and (min-width:768px) and (max-width:1023px) {
     .basic_img{
         padding-top: 50px;
         display: block;
@@ -35,7 +35,7 @@
         width: 780px;
         height: 500px;
     }
-}
+}*/
 
 @media all and (max-width:767px){
     .basic_img{
@@ -51,7 +51,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 500px;
+        width: 450px;
         height: 300px;
     }
 }
