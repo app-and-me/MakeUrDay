@@ -13,7 +13,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1200pxpx;
+    width: 1200px;
     height: 780px;
 }
 
@@ -37,6 +37,7 @@
     }
 }*/
 
+/* 반응형 모바일 */
 @media all and (max-width:767px){
     .basic_img{
         padding-top: 50px;
