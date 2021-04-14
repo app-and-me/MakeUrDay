@@ -107,7 +107,7 @@ header{
 }
 
 
-/* 반응형 */
+/* 모바일 반응형 */
 @media all and (max-width:767px){
     body{
         background-image: url('image/MainImage.jpg');
@@ -194,5 +194,95 @@ header{
         float: left;
         padding-top: 13px;
         padding-left: 20px;
+    }
+}
+
+/* 태블릿 반응형 */
+@media all and (min-width:768px) and (max-width:1023px) {
+    body{
+        background-image: url('image/MainImage.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    header{
+        position:fixed;
+        right: 0cm;
+    }
+    .nav_txt{
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 12px;
+        float: right;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 15px;
+    
+    }
+    .a_txt{
+        text-decoration: none;
+        color: black;
+    }
+    .h_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 24px;
+        text-align: left;
+        padding-top: 700px;
+        padding-left: 80px;
+    }
+    .h_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+    .h_btn{
+        width: 100px;
+        height: 32px;
+        float: left;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+    .m_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 24px;
+        text-align: right;
+        padding-top: 350px;
+        padding-right: 80px;
+    }
+    .m_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: right;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-right: 80px;
+    }
+    .m_btn{
+        width: 100px;
+        height: 32px;
+        float: right;
+        padding-top: 15px;
+        padding-right: 80px;
+    }
+    .b_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 24px;
+        text-align: left;
+        padding-top: 350px;
+        padding-left: 80px;
+    }
+    .b_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 16px;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+    .b_btn{
+        width: 100px;
+        height: 32px;
+        float: left;
+        padding-top: 15px;
+        padding-left: 80px;
     }
 }
