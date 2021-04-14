@@ -260,7 +260,7 @@ header{
     }
     .nav_txt{
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 12px;
+        font-size: 15px;
         float: right;
         list-style-type: none;
         text-decoration: none;
@@ -273,65 +273,65 @@ header{
     }
     .h_txt{
         font-family: 'GongGothicMedium';
-        font-size: 24px;
+        font-size: 23px;
         text-align: left;
-        padding-top: 700px;
+        padding-top: 650px;
         padding-left: 80px;
     }
     .h_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: left;
-        font-size: 16px;
-        padding-top: 15px;
+        font-size: 15px;
+        padding-top: 11px;
         padding-left: 80px;
     }
     .h_btn{
         width: 100px;
         height: 32px;
         float: left;
-        padding-top: 15px;
+        padding-top: 11px;
         padding-left: 80px;
     }
     .m_txt{
         font-family: 'GongGothicMedium';
-        font-size: 24px;
+        font-size: 23px;
         text-align: right;
-        padding-top: 350px;
+        padding-top: 250px;
         padding-right: 80px;
     }
     .m_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: right;
-        font-size: 16px;
-        padding-top: 15px;
+        font-size: 15px;
+        padding-top: 11px;
         padding-right: 80px;
     }
     .m_btn{
         width: 100px;
         height: 32px;
         float: right;
-        padding-top: 15px;
+        padding-top: 11px;
         padding-right: 80px;
     }
     .b_txt{
         font-family: 'GongGothicMedium';
-        font-size: 24px;
+        font-size: 23px;
         text-align: left;
-        padding-top: 350px;
+        padding-top: 250px;
         padding-left: 80px;
     }
     .b_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: left;
-        font-size: 16px;
-        padding-top: 15px;
+        font-size: 15px;
+        padding-top: 11px;
         padding-left: 80px;
     }
     .b_btn{
         width: 100px;
         height: 32px;
         float: left;
-        padding-top: 15px;
+        padding-top: 11px;
         padding-left: 80px;
     }
 }
