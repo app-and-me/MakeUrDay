@@ -58,7 +58,8 @@ header{
     width: 100%; 
     content: ''; 
     height: 5px; 
-    border-bottom: 4px solid #ccc; 
+    border-bottom: 3px solid #ccc; 
+    border-radius: 2.5px 2.5px 2.5px 2.5px / 2.5px 2.5px 2.5px 2.5px;
     bottom: -2px; left:0; opacity: 0; 
     transition: all 0.5s;
     transform: translateY(-8px);
