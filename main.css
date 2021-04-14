@@ -19,7 +19,7 @@ header{
     font-weight: normal;
     font-style: normal;
 }
-.nav_txt{
+*.nav_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-size: 15px;
     float: right;
@@ -29,9 +29,57 @@ header{
 
 }
 .a_txt{
+    position: relative; 
     text-decoration: none;
     color: black;
 }
+.a_txt .sub{
+    display: block; 
+    font-size: 10px; 
+    line-height: 20px; 
+    opacity: 0; 
+    transition: all 0.5s; 
+    transform: translateY(-8px);
+}
+.a_txt::before{
+    display: block; 
+    position: absolute; 
+    width: 100%; 
+    content: ''; 
+    height: 5px; 
+    box-sizing: border-box; 
+    
+    top: 0; left: 0; transition: all 0.5s;
+}
+/*border-top: 0px solid #ccc;*/
+.a_txt::after{
+    display: block; 
+    position: absolute; 
+    width: 100%; 
+    content: ''; 
+    height: 5px; 
+    border-bottom: 4px solid #ccc; 
+    bottom: -2px; left:0; opacity: 0; 
+    transition: all 0.5s;
+    transform: translateY(-8px);
+}
+.a_txt:hover .sub{opacity: 1;transform: translateY(0);}
+
+.a_txt:hover::after{opacity: 1;transform: translateY(0);}
+/*.nav_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 15px;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.a_txt:hover::before{border-top: 0px solid #ccc;}
+.a_txt{
+    text-decoration: none;
+    color: black;
+}*/
 .h_txt{
     font-family: 'GongGothicMedium';
     font-size: 40px;
