@@ -1,0 +1,99 @@
+*{margin:0; padding:0;}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_box{
+    position: relative;
+}
+.main_img{
+    padding-top: 300px;
+    width: 1200px;
+    height: 1200px;
+}
+.elec_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elec_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+}
+.food_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 반응형 모바일 */
+@media all and (max-width:767px){
+    .main_box{
+        position: relative;
+    }
+    .main_img{
+        padding-top: 200px;
+        width: 420px;
+        height: 700px;
+    }
+    .elec_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -200%);
+    }
+    .elec_img{
+        width: 250px;
+        height: 80px;
+    }
+    .elec_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .food_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .food_img{
+        width: 250px;
+        height: 80px;
+    }
+    .food_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
