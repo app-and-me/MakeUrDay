@@ -5,49 +5,167 @@
     font-weight: normal;
     font-style: normal;
 }
-.a_txt{
-    text-decoration: none;
-    color : #2B4235;
-    font-size: 25px;
+.main_box{
+    position: relative;
 }
-.nav_txt{
+.main_img{
+    padding-top: 300px;
+    width: 1200px;
+    height: 1200px;
+}
+.metal_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.metal_txt{
+    position: absolute;
     font-family: 'GongGothicMedium';
-    font-size: 15px;
-    padding: 20px;
-    background-color: #56C596;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.glass_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+}
+.glass_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.paper_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+}
+.paper_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pet_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 700%);
+}
+.pet_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-}
 /* 반응형 모바일 */
-@media all and (max-width:479px) {
-    .a_txt{
-        text-decoration: none;
-        color : #2B4235;
+@media all and (max-width:767px){
+    .main_box{
+        position: relative;
+    }
+    .main_img{
+        padding-top: 300px;
+        width: 400px;
+        height: 750px;
+    }
+    .metal_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -200%);
+    }
+    .metal_img{
+        width: 200px;
+        height: 70px;
+    }
+    .metal_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
         font-size: 15px;
-        text-align: center;
-    }
-    .nav_txt{
-        font-family: 'GongGothicMedium';
-        font-size: 10px;
-        padding: 20px;
-        background-color: #56C596;
-        text-align: center;
-    
-    }
-}
-/* 반응형 태블릿 */
-@media all and (min-width:768px) and (max-width:1023px) {
-    .a_txt{
+        color: white;
         text-decoration: none;
-        color : #2B4235;
-        font-size: 20px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .nav_txt{
+    .glass_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .glass_img{
+        width: 200px;
+        height: 70px;
+    }
+    .glass_txt{
+        position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 10px;
-        padding: 20px;
-        background-color: #56C596;
-        text-align: center;
-    
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .paper_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 200%);
+    }
+    .paper_img{
+        width: 200px;
+        height: 70px;
+    }
+    .paper_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .pet_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 400%);
+    }
+    .pet_img{
+        width: 200px;
+        height: 70px;
+    }
+    .pet_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 13px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
