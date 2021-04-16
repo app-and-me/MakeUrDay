@@ -148,6 +148,30 @@ body::-webkit-scrollbar-track{
     padding-top: 30px;
     padding-left: 220px;
 }
+.qr_txt{
+    padding-top: 200px;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    text-align: center;
+
+}
+.qr_1{
+    padding-top: 800px;
+    padding-right: 70px;
+    width: 150px;
+    height: 150px;
+}
+.qr_2{
+    padding-top: 500px;
+    padding-right: 70px;
+    width: 150px;
+    height: 150px;
+}
+.qr_3{
+    padding-top: 500px;
+    width: 150px;
+    height: 150px;
+}
 /* footer css 수정 */
 /*.member{text-align: center;}
 .developer{
