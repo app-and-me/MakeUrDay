@@ -17,12 +17,29 @@
     background-color: #56C596;
 
 }
-/*반응형 웹*/
+/* 반응형 모바일 */
 @media all and (max-width:479px) {
     .a_txt{
         text-decoration: none;
         color : #2B4235;
         font-size: 15px;
+        text-align: center;
+    }
+    .nav_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 10px;
+        padding: 20px;
+        background-color: #56C596;
+        text-align: center;
+    
+    }
+}
+/* 반응형 태블릿 */
+@media all and (min-width:768px) and (max-width:1023px) {
+    .a_txt{
+        text-decoration: none;
+        color : #2B4235;
+        font-size: 20px;
         text-align: center;
     }
     .nav_txt{
