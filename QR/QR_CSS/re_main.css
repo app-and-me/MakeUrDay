@@ -84,8 +84,8 @@
         position: relative;
     }
     .main_img{
-        padding-top: 300px;
-        width: 400px;
+        padding-top: 200px;
+        width: 440px;
         height: 750px;
     }
     .metal_box{
@@ -95,13 +95,13 @@
         transform: translate(-50%, -200%);
     }
     .metal_img{
-        width: 200px;
-        height: 70px;
+        width: 250px;
+        height: 80px;
     }
     .metal_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 15px;
+        font-size: 18px;
         color: white;
         text-decoration: none;
         top: 50%;
@@ -115,13 +115,13 @@
         transform: translate(-50%, 0%);
     }
     .glass_img{
-        width: 200px;
-        height: 70px;
+        width: 250px;
+        height: 80px;
     }
     .glass_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 15px;
+        font-size: 18px;
         color: white;
         text-decoration: none;
         top: 50%;
@@ -135,13 +135,13 @@
         transform: translate(-50%, 200%);
     }
     .paper_img{
-        width: 200px;
-        height: 70px;
+        width: 250px;
+        height: 80px;
     }
     .paper_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 15px;
+        font-size: 18px;
         color: white;
         text-decoration: none;
         top: 50%;
@@ -155,13 +155,13 @@
         transform: translate(-50%, 400%);
     }
     .pet_img{
-        width: 200px;
-        height: 70px;
+        width: 250px;
+        height: 80px;
     }
     .pet_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 13px;
+        font-size: 16px;
         color: white;
         text-decoration: none;
         top: 50%;
