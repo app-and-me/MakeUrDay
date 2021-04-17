@@ -170,7 +170,8 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-270%, 1800%);
+    transform: translate(-270%, 2220%);
+    /*transform: translate(-270%, 1800%);*/
 }
 .qr_2{
     position: absolute;
@@ -178,7 +179,8 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 1800%);
+    transform: translate(-50%, 2220%);
+    /*transform: translate(-50%, 1800%);*/
 }
 .qr_3{
     position: absolute;
@@ -186,7 +188,8 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(168%, 1800%);
+    transform: translate(168%, 2220%);
+    /*transform: translate(168%, 1800%);*/
 }
 .h_txt .h_txt2{
     opacity:0;
@@ -198,20 +201,26 @@ body::-webkit-scrollbar{
     animation: watch 1s linear infinite both;
   }
 
-  .waving_vinly{
+  .waving_vinly1{
     padding-top: 3%;
-    padding-left: 7%;
+    padding-left: 9%;
+  }
+  .waving_phone{
+    padding-top: 10%;
+    padding-left: 52%;
   }
   .waving_can{
     padding-left: 40%;
-  }
-  .waving_box{
-    padding-left: 25%;
     padding-bottom: 5%;
   }
-  .waving_phone{
+  .waving_vinly2{
+    padding-top: 3%;
     padding-left: 70%;
   }
+  .waving_box{
+    padding-left: 30%;
+  }
+
  
  
   /* 탑바 로고 움직임 */
