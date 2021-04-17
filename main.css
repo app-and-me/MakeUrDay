@@ -103,11 +103,11 @@ body::-webkit-scrollbar{
     padding-left: 220px;
 }
 .h_btn{
-    width: 120px;
-    height: 40px;
+    width: 160px;
+    height: 160px;
     float: left;
-    padding-top: 30px;
-    padding-left: 220px;
+    padding-top: -20px;
+    padding-left: 210px;
 }
 .m_txt{
     font-family: 'GongGothicMedium';
@@ -124,11 +124,11 @@ body::-webkit-scrollbar{
     padding-right: 220px;
 }
 .m_btn{
-    width: 120px;
-    height: 40px;
+    width: 160px;
+    height: 160px;
     float: right;
-    padding-top: 30px;
-    padding-right: 220px;
+    padding-top: -20px;
+    padding-right: 210px;
 }
 .b_txt{
     font-family: 'GongGothicMedium';
@@ -145,11 +145,11 @@ body::-webkit-scrollbar{
     padding-left: 220px;
 }
 .b_btn{
-    width: 120px;
-    height: 40px;
+    width: 160px;
+    height: 160px;
     float: left;
-    padding-top: 30px;
-    padding-left: 220px;
+    padding-top: -20px;
+    padding-left: 210px;
 }
 .qr_txt{
     font-family: 'GongGothicMedium';
@@ -171,7 +171,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-270%, 2320%);
+    transform: translate(-270%, 2360%);
     /*transform: translate(-270%, 1800%);*/
 }
 .qr_2{
@@ -180,7 +180,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 2100%);
+    transform: translate(-50%, 2360%);
     /*transform: translate(-50%, 1800%);*/
 }
 .qr_3{
@@ -189,7 +189,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(168%, 2100%);
+    transform: translate(168%, 2360%);
     /*transform: translate(168%, 1800%);*/
 }
 .h_txt .h_txt2{
@@ -296,10 +296,10 @@ body::-webkit-scrollbar{
         padding-left: 20px;
     }
     .h_btn{
-        width: 80px;
-        height: 25px;
+        width: 100px;
+        height: 100px;
         float: left;
-        padding-top: 13px;
+        padding-top: 0px;
         padding-left: 20px;
     }
     .m_txt{
@@ -317,10 +317,10 @@ body::-webkit-scrollbar{
         padding-right: 20px;
     }
     .m_btn{
-        width: 80px;
-        height: 25px;
+        width: 100px;
+        height: 100px;
         float: right;
-        padding-top: 13px;
+        padding-top: 0px;
         padding-right: 20px;
     }
     .b_txt{
@@ -338,10 +338,10 @@ body::-webkit-scrollbar{
         padding-left: 20px;
     }
     .b_btn{
-        width: 80px;
-        height: 25px;
+        width: 100px;
+        height: 100px;
         float: left;
-        padding-top: 13px;
+        padding-top: 0px;
         padding-left: 20px;
     }
 }
@@ -386,10 +386,10 @@ body::-webkit-scrollbar{
         padding-left: 80px;
     }
     .h_btn{
-        width: 100px;
-        height: 32px;
+        width: 110px;
+        height: 110px;
         float: left;
-        padding-top: 11px;
+        padding-top: 0px;
         padding-left: 80px;
     }
     .m_txt{
@@ -407,10 +407,10 @@ body::-webkit-scrollbar{
         padding-right: 80px;
     }
     .m_btn{
-        width: 100px;
-        height: 32px;
+        width: 110px;
+        height: 110px;
         float: right;
-        padding-top: 11px;
+        padding-top: 0px;
         padding-right: 80px;
     }
     .b_txt{
@@ -428,10 +428,10 @@ body::-webkit-scrollbar{
         padding-left: 80px;
     }
     .b_btn{
-        width: 100px;
-        height: 32px;
+        width: 110px;
+        height: 110px;
         float: left;
-        padding-top: 11px;
+        padding-top: 0px;
         padding-left: 80px;
     }
 }
