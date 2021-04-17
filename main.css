@@ -161,6 +161,7 @@ body::-webkit-scrollbar{
     position: relative;
 }
 .qr_main{
+    padding-top: 50px;
     display: block;
     margin: 0 auto;
 }
@@ -170,7 +171,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-270%, 2100%);
+    transform: translate(-270%, 2320%);
     /*transform: translate(-270%, 1800%);*/
 }
 .qr_2{
