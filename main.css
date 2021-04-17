@@ -85,6 +85,12 @@ body::-webkit-scrollbar-track{
     opacity: 1;
     transform: translateY(0);
 }
+.main_logo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
 .h_txt{
     font-family: 'GongGothicMedium';
     font-size: 40px;
@@ -149,28 +155,41 @@ body::-webkit-scrollbar-track{
     padding-left: 220px;
 }
 .qr_txt{
-    padding-top: 200px;
     font-family: 'GongGothicMedium';
     font-size: 20px;
-    text-align: center;
+    text-align: right;
 
 }
+.qr_mainbox{
+    position: relative;
+}
+.qr_main{
+    display: block;
+    margin: 0 auto;
+}
 .qr_1{
-    padding-top: 800px;
-    padding-right: 70px;
+    position: absolute;
     width: 150px;
     height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-270%, 1800%);
 }
 .qr_2{
-    padding-top: 500px;
-    padding-right: 70px;
+    position: absolute;
     width: 150px;
     height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1800%);
 }
 .qr_3{
-    padding-top: 500px;
+    position: absolute;
     width: 150px;
     height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(168%, 1800%);
 }
 /* footer css 수정 */
 /*.member{text-align: center;}

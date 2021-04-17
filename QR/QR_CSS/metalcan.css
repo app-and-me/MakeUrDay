@@ -1,58 +1,52 @@
 *{margin:0; padding:0px}
-
-.basic_img{
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.back_btn{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.right_box{
+    position: relative;
+}
+.left_btn{
     padding-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 250px;
+    padding-left: 50px;
+    width: 500px;
+    height: 90px;
 }
-.box_img{
-    padding-top: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.right_btn{
+    padding-top: 50px;
+    padding-right: 50px;
+    float: right;
+    width: 150px;
+    height: 90px;
+}
+.txt_box{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 16px;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-195%, -25%);
+}
+.main_box{
+    position: relative;
+}
+.white_box{
+    position: absolute;
     width: 1200px;
-    height: 780px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
 }
-
-/* 반응형 태블릿 */
-@media all and (min-width:768px) and (max-width:1023px) {
-    .basic_img{
-        padding-top: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px;
-        height: 200px;
-    }
-    .box_img{
-        padding-top: 80px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 780px;
-        height: 500px;
-    }
+.dra_box{
+    
 }
-
-/* 반응형 모바일 */
-@media all and (max-width:767px){
-    .basic_img{
-        padding-top: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px;
-        height: 150px;
-    }
-    .box_img{
-        padding-top: 80px;
-        display: block;
-        width: 150px;
-        height: 100px;
-    }
-}
-
-
