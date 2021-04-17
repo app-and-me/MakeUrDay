@@ -152,9 +152,10 @@ body::-webkit-scrollbar{
     padding-left: 210px;
 }
 .qr_txt{
+    padding-top: 120px;
     font-family: 'GongGothicMedium';
     font-size: 20px;
-    text-align: right;
+    text-align: center;
 
 }
 .qr_mainbox{
@@ -250,12 +251,31 @@ body::-webkit-scrollbar{
 }
 /* footer css 수정 */
 /*.member{text-align: center;}
-.developer{
-    font-family: 'GongGothicMedium';
+.sw{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.member_1{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: center;
     font-size: 15px;
-    padding-top: 400px;
+    font-weight: none;
+}
+.desing{
+    list-style:none;
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.member_2{
+    font-family: 'NanumSquare', sans-serif !important;
+    text-align: center;
+    font-size: 15px;
+    list-style:none;
 }*/
-
 /* 모바일 반응형 */
 @media all and (max-width:767px){
     body{
@@ -343,6 +363,11 @@ body::-webkit-scrollbar{
         float: left;
         padding-top: 0px;
         padding-left: 20px;
+    }
+    .qr{
+        display: none;
+        visibility: hidden;
+        width: 0%;
     }
 }
 
@@ -433,5 +458,10 @@ body::-webkit-scrollbar{
         float: left;
         padding-top: 0px;
         padding-left: 80px;
+    }
+    .qr{
+        display: none;
+        visibility: hidden;
+        width: 0%;
     }
 }
