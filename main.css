@@ -170,7 +170,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-270%, 2800%);
+    transform: translate(-270%, 2300%);
     /*transform: translate(-270%, 1800%);*/
 }
 .qr_2{
@@ -179,7 +179,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 2800%);
+    transform: translate(-50%, 2300%);
     /*transform: translate(-50%, 1800%);*/
 }
 .qr_3{
@@ -188,7 +188,7 @@ body::-webkit-scrollbar{
     height: 150px;
     top: 50%;
     left: 50%;
-    transform: translate(168%, 2800%);
+    transform: translate(168%, 2300%);
     /*transform: translate(168%, 1800%);*/
 }
 .h_txt .h_txt2{
