@@ -109,21 +109,21 @@
     .back_btn{
         width: 40px;
         height: 40px;
-        padding-top: 40px;
-        padding-left: 40px;
+        padding-top: 30px;
+        padding-left: 30px;
     }
     .right_box{
         position: relative;
     }
     .left_btn{
         padding-top: 50px;
-        padding-left: 40px;
+        padding-left: 30px;
         width: 300px;
         height: 70px;
     }
     .right_btn{
-        padding-top: 20px;
-        padding-right: 40px;
+        padding-top: 10px;
+        padding-right: 30px;
         float: right;
         width: 90px;
         height: 60px;
@@ -135,7 +135,10 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-75%, -6%);
+        transform: translate(-65%, -5%);
+    }
+    .main.box{
+        position: relative;
     }
     .white_box{
         position: relative;
@@ -143,7 +146,18 @@
         height: 500px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 30%);
+        transform: translate(-50%, 10%);
+    }
+    .conmbine_box{
+        position: absolute;
+    }
+    .combine{
+        position: absolute;
+        width: 250px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 120%);
     }
     .dra_box{
         position: absolute;
@@ -160,7 +174,7 @@
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 210%);
+        transform: translate(-50%, 120%);
     }
     .Mag_box{
         position: absolute;
@@ -184,7 +198,7 @@
         height: 300px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 50%); 
+        transform: translate(-50%, 40%); 
     }
     .glass_ico{
         position: absolute;
@@ -192,7 +206,7 @@
         height: 40px;
         top: 50%;
         left: 50%;
-        transform: translate(-450%, 320%); 
+        transform: translate(-450%, 240%); 
     }
     .main_txt{
         position: absolute;
@@ -202,6 +216,6 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 150%);
+        transform: translate(-50%, 100%);
     }
 }
