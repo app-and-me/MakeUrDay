@@ -206,24 +206,25 @@ body::-webkit-scrollbar{
   .waving_vinly1{
     padding-top: 3%;
     padding-left: 9%;
+    padding-bottom: 2.5%;
   }
   .waving_phone{
     padding-top: 10%;
-    padding-left: 32%;
+    padding-left: 48%;
   }
   .waving_can{
     padding-left: 40%;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
   .waving_vinly2{
-    padding-top: 3%;
+   /* padding-top: 3%; */
     padding-left: 70%;
   }
   .waving_box{
     padding-left: 30%;
   }
 
- 
+
  
   /* 탑바 로고 움직임 */
 @keyframes watch {
