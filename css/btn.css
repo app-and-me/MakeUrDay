@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body .button {
+  width: 120px;
+  height: 40px;
+  background: #f3f0f1;
+  position: relative;
+  background: #f3f0f1;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+body .button span {
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: semibold;
+}
+
+body .button:nth-child(1) {
+  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+body .button:nth-child(1):hover {
+  opacity: 0.3;
+  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+body .button:nth-child(1):active {
+  opacity: 1;
+  -webkit-box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+body .button:nth-child(2) {
+  opacity: 0.3;
+  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+body .button:nth-child(3) {
+  -webkit-box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+body .button:nth-child(3):hover {
+  opacity: 1;
+  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

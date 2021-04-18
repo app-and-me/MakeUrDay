@@ -103,11 +103,11 @@ body::-webkit-scrollbar{
     padding-left: 220px;
 }
 .h_btn{
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 40px;
     float: left;
-    padding-top: -20px;
-    padding-left: 210px;
+    padding-top: 30px;
+    padding-left: 220px;
 }
 .m_txt{
     font-family: 'GongGothicMedium';
@@ -124,11 +124,11 @@ body::-webkit-scrollbar{
     padding-right: 220px;
 }
 .m_btn{
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 40px;
     float: right;
-    padding-top: -20px;
-    padding-right: 210px;
+    padding-top: 30px;
+    padding-right: 340px;
 }
 .b_txt{
     font-family: 'GongGothicMedium';
@@ -145,11 +145,11 @@ body::-webkit-scrollbar{
     padding-left: 220px;
 }
 .b_btn{
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 40px;
     float: left;
-    padding-top: -20px;
-    padding-left: 210px;
+    padding-top: 30px;
+    padding-left: 220px;
 }
 .qr_txt{
     padding-top: 120px;
