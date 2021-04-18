@@ -1,0 +1,275 @@
+*{margin:0; padding:0px}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.back_btn{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.right_box{
+    position: relative;
+}
+.left_btn{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 500px;
+    height: 90px;
+}
+.right_btn{
+    padding-top: 50px;
+    padding-right: 50px;
+    float: right;
+    width: 150px;
+    height: 90px;
+}
+.txt_box{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 16px;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-195%, -25%);
+}
+.white_box{
+    position: relative;
+    width: 1200px;
+    height: 1300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+.dra_box{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-1000%, 1000%);
+}
+.paper_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 30px;
+    color: #9ed8d9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1000%);
+}
+.Mag_box{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(1000%, 1000%);
+}
+.line_box{
+    position: absolute;
+    width: 800px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, 4200%); 
+}
+.blue_box1{
+    position: absolute;
+    width: 820px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 85%); 
+}
+.paper_ico{
+    position: absolute;
+    width: 55px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-580%, 800%); 
+}
+.main_txt1{
+    position: absolute;
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1200%);
+}
+
+/* 모바일 반응형 */
+@media all and (max-width:767px){
+    .back_btn{
+        width: 40px;
+        height: 40px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .right_box{
+        position: relative;
+    }
+    .left_btn{
+        padding-top: 50px;
+        padding-left: 30px;
+        width: 300px;
+        height: 70px;
+    }
+    .right_btn{
+        padding-top: 10px;
+        padding-right: 30px;
+        float: right;
+        width: 90px;
+        height: 60px;
+    }
+    .txt_box{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 12px;
+        text-align: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-65%, -5%);
+    }
+    .main.box{
+        position: relative;
+    }
+    .white_box{
+        position: relative;
+        width: 400px;
+        height: 600px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+    }
+    .combine{
+        position: absolute;
+        width: 250px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 240%);
+    }
+    .dra_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-700%, 200%);
+    }
+    .paper_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 20px;
+        color: #9ed8d9;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 230%);
+    }
+    .Mag_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(600%, 200%);
+    }
+    .line_box{
+        position: absolute;
+        width: 300px;
+        height: 5px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-48%, 1500%); 
+    }
+    .blue_box4{
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 40%); 
+    }
+    .paper_ico{
+        position: absolute;
+        width: 60px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-215%, 270%); 
+    }
+    .main_txt1{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-128%, 180%);
+    }
+    .subheading_1{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 960%);
+    }
+    .main_txt2{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(14%, 1500%);
+    }
+    .subheading_2{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-380%, 2150%);
+    }
+    .main_txt3{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-140%, 450%);
+    }
+    .subheading_3{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(165%, 2150%);
+    }
+    .main_txt4{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(25%, 930%);
+    }
+}
