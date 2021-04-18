@@ -131,11 +131,14 @@
     .txt_box{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 11px;
+        font-size: 12px;
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-90%, -6%);
+        transform: translate(-65%, -5%);
+    }
+    .main.box{
+        position: relative;
     }
     .white_box{
         position: relative;
@@ -144,6 +147,14 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, 10%);
+    }
+    .combine{
+        position: absolute;
+        width: 250px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 120%);
     }
     .dra_box{
         position: absolute;
@@ -160,23 +171,7 @@
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 150%);
-    }
-    .Mag_box{
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 50%;
-        left: 50%;
-        transform: translate(600%, 200%);
-    }
-    .line_box{
-        position: absolute;
-        width: 300px;
-        height: 5px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-48%, 1500%); 
+        transform: translate(-50%, 120%);
     }
     .blue_box2{
         position: absolute;
@@ -184,7 +179,7 @@
         height: 200px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 70%); 
+        transform: translate(-50%, 50%); 
     }
     .paper_ico{
         position: absolute;
@@ -192,7 +187,7 @@
         height: 60px;
         top: 50%;
         left: 50%;
-        transform: translate(-360%, 190%); 
+        transform: translate(-360%, 120%); 
     }
     .main_txt1{
         position: absolute;
@@ -202,7 +197,7 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-120%, 710%);
+        transform: translate(-120%, 550%);
     }
     .main_txt2{
         position: absolute;
@@ -212,7 +207,7 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(16%, 330%);
+        transform: translate(16%, 270%);
     }
     .longbox{
         position: absolute;
@@ -220,7 +215,7 @@
         height: 150px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 260%); 
+        transform: translate(-50%, 220%); 
     }
     .main_txt3{
         position: absolute;
@@ -230,7 +225,7 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-60%, 370%);
+        transform: translate(-60%, 310%);
     }
     .plastic_ico{
         position: absolute;
@@ -238,6 +233,6 @@
         height: 60px;
         top: 50%;
         left: 50%;
-        transform: translate(360%, 600%); 
+        transform: translate(360%, 520%); 
     }
 }
