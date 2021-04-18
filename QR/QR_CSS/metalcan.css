@@ -135,23 +135,36 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-90%, -6%);
+        transform: translate(-65%, -9%);
+    }
+    .main.box{
+        position: relative;
     }
     .white_box{
-        position: relative;
         width: 400px;
         height: 500px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 10%);
     }
-    .dra_box{
+    .conmbine_box{
+        position: absolute;
+    }
+    /*.dra_box{
         position: absolute;
         width: 20px;
         height: 20px;
         top: 50%;
         left: 50%;
         transform: translate(-700%, 200%);
+    }*/
+    .combine{
+        position: absolute;
+        width: 250px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 160%);
     }
     .metal_txt{
         position: absolute;
@@ -162,14 +175,14 @@
         left: 50%;
         transform: translate(-50%, 160%);
     }
-    .Mag_box{
+    /*.Mag_box{
         position: absolute;
         width: 20px;
         height: 20px;
         top: 50%;
         left: 50%;
         transform: translate(600%, 200%);
-    }
+    }*/
     .line_box{
         position: absolute;
         width: 300px;
