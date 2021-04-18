@@ -140,7 +140,7 @@
     .white_box{
         position: relative;
         width: 400px;
-        height: 500px;
+        height: 600px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 10%);
@@ -153,14 +153,14 @@
         left: 50%;
         transform: translate(-700%, 200%);
     }
-    .paepr_txt{
+    .paper_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
         font-size: 20px;
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 150%);
     }
     .Mag_box{
         position: absolute;
@@ -178,30 +178,87 @@
         left: 50%;
         transform: translate(-48%, 1500%); 
     }
-    .blue_box1{
+    .blue_box4{
         position: absolute;
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 400px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 50%); 
+        transform: translate(-50%, 40%); 
     }
     .paper_ico{
         position: absolute;
-        width: 25px;
-        height: 40px;
+        width: 40px;
+        height: 48px;
         top: 50%;
         left: 50%;
-        transform: translate(-450%, 320%); 
+        transform: translate(-300%, 290%); 
     }
     .main_txt1{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 17px;
+        font-size: 14px;
         color:black;
-        text-align: left;
+        text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 150%);
+        transform: translate(-125%, 480%);
+    }
+    .subheading_1{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 960%);
+    }
+    .main_txt2{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(14%, 360%);
+    }
+    .subheading_2{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-380%, 2150%);
+    }
+    .main_txt3{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-113%, 930%);
+    }
+    .subheading_3{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(165%, 2150%);
+    }
+    .main_txt4{
+        position: absolute;
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 14px;
+        color:black;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(21%, 930%);
     }
 }
