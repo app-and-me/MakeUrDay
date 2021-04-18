@@ -131,18 +131,18 @@
     .txt_box{
         position: absolute;
         font-family: 'GongGothicMedium';
-        font-size: 11px;
+        font-size: 12px;
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-65%, -9%);
+        transform: translate(-65%, -5%);
     }
     .main.box{
         position: relative;
     }
     .white_box{
         width: 400px;
-        height: 500px;
+        height: 600px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 10%);
@@ -171,6 +171,7 @@
         font-family: 'GongGothicMedium';
         font-size: 20px;
         color: #9ed8d9;
+        text-align: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 160%);
