@@ -6,17 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
+    <style>
+        .section input[id*="slide"] { /*위에 뜨는 3개의 점 없애기*/
+            display: none;
+        }
+        .section .slidewrap {
+            max-width: 1200px; /*상자값*/
+            margin: 0 auto; /*가운데 정렬*/
+            overflow: hidden; /*영역을 벗어나면 안보이게*/
+        }
+        .section .slidelist {
+            white-space: nowrap;
+            font-size: 0;
+        }
+        .section .slidelist > li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            transition: all .5s;
+        }
+        .section .slidelist > li > a {
+            display: block;
+            position: relative;
+        }
+        .section .slidelist > li > a img {
+            width: 100%;
+        }
+        .section .slidelist label {
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 50px;
+            cursor: pointer;
+        }
+        .section .slidelist .left {
+            left: 30px;
+            background: url('image/test/left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
+        }
+        .section .slidelist .right {
+            right: 30px;
+            background: url('image/test/right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
+        }
+        .section [id="slide01"]:checked ~ .slidewrap .slidelist > li { transform: translateX(0%); }
+        .section [id="slide02"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-100%); }
+        .section [id="slide03"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-200%); }
+        .section [id="slide04"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-300%); }
+    </style>
 </head>
 <body>
-    <pre>
-        스토리 1 부분입니다.
-        제목 : <strong>우리 함께 지하수를 지키자</strong>
-        내용 : 땅 속의 빈틈을 채우고 있는 지하수가 더렵혀지고 있어. 
-            토양에 축적된 오염물질이 땅 속으로 흘러 들어가기 때문이야. 
-            지하수는 농작물과 식수로 유입되기 때문에 땅과 물 뿐만 아니라 우리에게도 위협적이야! 
-            한번 오염이 시작되면 원래 상태로 돌려놓기 매우 힘들어. 
-            지하수가 오염되지 않도록 우리 모두 예방을 위해 힘쓰자! 
-            (출처 : 한국환경산업기술원)
-    </pre>
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide04" class="left"></label>
+                        <img src="image/test/slide01.jpg"> <!--사진 자리-->
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="image/test/slide02.jpg"> <!--사진 자리-->
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="image/test/slide03.jpg"> <!--사진 자리-->
+                        <label for="slide04" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="image/test/slide.jpg"> <!--사진 자리-->
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 </html>

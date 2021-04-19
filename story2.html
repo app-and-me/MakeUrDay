@@ -6,20 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
+    <style>
+        .section input[id*="slide"] {
+            display: none;
+        }
+        .section .slidewrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .section .slidelist {
+            white-space: nowrap;
+            font-size: 0;
+        }
+        .section .slidelist > li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            transition: all .5s;
+        }
+        .section .slidelist > li > a {
+            display: block;
+            position: relative;
+        }
+        .section .slidelist > li > a img {
+            width: 100%;
+        }
+        .section .slidelist label {
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 50px;
+            cursor: pointer;
+        }
+        .section .slidelist .left {
+            left: 30px;
+            background: url('image/test/left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
+        }
+        .section .slidelist .right {
+            right: 30px;
+            background: url('image/test/right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
+        }
+        .section [id="slide01"]:checked ~ .slidewrap .slidelist > li { transform: translateX(0%); }
+        .section [id="slide02"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-100%); }
+        .section [id="slide03"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-200%); }
+        .section [id="slide04"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-300%); }
+    </style>
 </head>
 <body>
-    <pre>
-        스토리 2 부분입니다.
-        제목 : <strong>넘쳐흐르는 쓰레기</strong>
-        내용 : 요즘 코로나 19의 확산에 쓰레기 포화 상태가 더욱 가속화 되고 있어.  
-               비대면 소비 증가로 인해 비닐과 플라스틱 등의 포장재 폐기물 발생량이 20% 증가했기 때문이야. 
-               이 쓰레기는 하루 평균 1만 417톤이나 되는 어마어마한 양이 우리가 살아가는 땅에 묻히고 있어. 
-               이렇게 쓰레기 양이 많다보니 더 이상 쓰레기를 처리할 공간이 사라져가고 있네,,
-               넘쳐나는 쓰레기를 해결할 수 없다면 우리 집 앞에도 계속해서 쓰레기들이 쌓여져 갈거야
-               그렇기 때문에 우리 모두 쓰레기 배출을 최대한 줄이고 올바른 방법으로 분리수거를 열심히 해서 
-               쓰레기가 넘쳐나지 않는 깨끗한 환경을 만들어보자!
-        
-        
-    </pre>
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide04" class="left"></label>
+                        <img src="image/test/slide01.jpg"> <!--사진 자리-->
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="image/test/slide02.jpg"> <!--사진 자리-->
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="image/test/slide03.jpg"> <!--사진 자리-->
+                        <label for="slide04" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="image/test/slide.jpg"> <!--사진 자리-->
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 </html>

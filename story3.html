@@ -6,20 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
+    <style>
+        .section input[id*="slide"] {
+            display: none;
+        }
+        .section .slidewrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .section .slidelist {
+            white-space: nowrap;
+            font-size: 0;
+        }
+        .section .slidelist > li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            transition: all .5s;
+        }
+        .section .slidelist > li > a {
+            display: block;
+            position: relative;
+        }
+        .section .slidelist > li > a img {
+            width: 100%;
+        }
+        .section .slidelist label {
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 50px;
+            cursor: pointer;
+        }
+        .section .slidelist .left {
+            left: 30px;
+            background: url('image/test/left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
+        }
+        .section .slidelist .right {
+            right: 30px;
+            background: url('image/test/right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
+        }
+        .section [id="slide01"]:checked ~ .slidewrap .slidelist > li { transform: translateX(0%); }
+        .section [id="slide02"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-100%); }
+        .section [id="slide03"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-200%); }
+        .section [id="slide04"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-300%); }
+    </style>
 </head>
 <body>
-    <pre>
-        스토리 3 부분입니다.
-        제목 : <strong>바다와 우리의 건강을 지키자</strong>
-        내용 :  태평양에는 ‘태평양 쓰레기 섬’이라고 불리는 쓰레기 더미가 있어. 
-               이 섬은 우리 인간들이 일회용품을 흔하게 쓰기 시작하면서부터 만들어졌지. 
-               섬의 쓰레기는 대부분이 플라스틱으로 이루어져 있는데, 진짜 문제는 
-               이 플라스틱들이 시간이 흐를수록 작아져서 이젠 인간들이 해결할 수 없는 
-               상황이 되어버렸다는 거야. 이렇게 만들어진 미세 플라스틱을 바다생물들이 먹고, 
-               그 생물들을 먹은 인간들의 몸 속에 해로운 성분들이 쌓여서, 건강을 해칠 수 있다는 것! 
-               모두 명심하고 플라스틱은 꼭 재활용 하도록 노력해서 지구의 생명들을 지키자! 
-               (출처 : 한국해양학회)
-        
-    </pre>
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide04" class="left"></label>
+                        <img src="image/test/slide01.jpg"> <!--사진 자리-->
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="image/test/slide02.jpg"> <!--사진 자리-->
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="image/test/slide03.jpg"> <!--사진 자리-->
+                        <label for="slide04" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="image/test/slide.jpg"> <!--사진 자리-->
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 </html>
