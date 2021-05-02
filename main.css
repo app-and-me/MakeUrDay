@@ -158,7 +158,7 @@ body::-webkit-scrollbar{
     font-size: 40px;
     color: #2B4235;
     text-align: center;
-    padding-top: 700px;
+    padding-top: 650px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -166,7 +166,7 @@ body::-webkit-scrollbar{
     font-size: 18px;
     color: #2B4235;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 25px;
     
 }
 .b_qr_txt{
@@ -176,11 +176,134 @@ body::-webkit-scrollbar{
     color: #2B4235;
     text-align: center;
     display: block;
-    padding-bottom: -5000px;
+    padding-top: 5px;
+    margin-bottom: -180px;
 }
 .qr{
     display: block;
     margin: 0 auto;
+}
+
+/* game */
+.h_game_txt{
+    font-family: 'GongGothicMedium';
+    font-weight: bold;
+    font-size: 40px;
+    color: #2B4235;
+    text-align: center;
+    padding-top: 80px;
+}
+.m_game_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2B4235;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.b_game_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2B4235;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: -180px;
+}
+.game_main{
+    display: block;
+    margin: 0 auto;
+}
+.game_txt{
+    display: block;
+    margin: 0 auto;
+    margin-top: -900px;
+}
+/* 환경 단체 사이트 */
+.h_ev_txt{
+    font-family: 'GongGothicMedium';
+    font-weight: bold;
+    font-size: 40px;
+    color: #2B4235;
+    text-align: center;
+    padding-top: 400px;
+}
+.m_ev_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2B4235;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.b_ev_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2B4235;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: -180px;
+}
+.line_1{
+    margin: 0 auto;
+    position: relative;
+}
+.ev_1{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 350%);
+}
+.ev_2{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, 350%);
+}
+.ev_3{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 500%);
+}
+.ev_4{
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, 500%);
+}
+/* footer 이름 */
+.app_member{
+    display: block;
+    margin: 0 auto;
+    padding-top:500px;
+}
+.member{
+    display:inline-block;
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 15px;
+    padding-top: 500px;
+    text-align: center;
+    
+}
+.d_member{
+    display:inline-block;
+    font-family: 'NanumSquare', sans-serif !important;
+    font-size: 15px;
+    text-align: center;
 }
 .h_txt .h_txt2{
     opacity:0;
