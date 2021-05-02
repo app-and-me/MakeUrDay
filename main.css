@@ -92,7 +92,7 @@ body::-webkit-scrollbar{
     font-family: 'GongGothicMedium';
     font-size: 40px;
     text-align: left;
-    padding-top: 1100px;
+    padding-top: 900px;
     padding-left: 220px;
 }
 .h_txt2{
@@ -113,7 +113,7 @@ body::-webkit-scrollbar{
     font-family: 'GongGothicMedium';
     font-size: 40px;
     text-align: right;
-    padding-top: 400px;
+    padding-top: 150px;
     padding-right: 220px;
 }
 .m_txt2{
@@ -134,7 +134,7 @@ body::-webkit-scrollbar{
     font-family: 'GongGothicMedium';
     font-size: 40px;
     text-align: left;
-    padding-top: 400px;
+    padding-top: 150px;
     padding-left: 220px;
 }
 .b_txt2{
@@ -151,47 +151,36 @@ body::-webkit-scrollbar{
     padding-top: 30px;
     padding-left: 220px;
 }
-.qr_txt{
-    padding-top: 120px;
+/* qr */
+.h_qr_txt{
     font-family: 'GongGothicMedium';
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2B4235;
     text-align: center;
-
+    padding-top: 700px;
 }
-.qr_mainbox{
-    position: relative;
+.m_qr_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2B4235;
+    text-align: center;
+    padding-top: 30px;
+    
 }
-.qr_main{
-    padding-top: 50px;
+.b_qr_txt{
+    font-family: 'NanumSquare', sans-serif !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #2B4235;
+    text-align: center;
+    display: block;
+    padding-bottom: -5000px;
+}
+.qr{
     display: block;
     margin: 0 auto;
-}
-.qr_1{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-270%, 2350%);
-    /*transform: translate(-270%, 1800%);*/
-}
-.qr_2{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 2350%);
-    /*transform: translate(-50%, 1800%);*/
-}
-.qr_3{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: 50%;
-    left: 50%;
-    transform: translate(168%, 2350%);
-    /*transform: translate(168%, 1800%);*/
 }
 .h_txt .h_txt2{
     opacity:0;
