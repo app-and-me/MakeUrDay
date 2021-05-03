@@ -11,7 +11,7 @@
     <!--background-->
     <style>
         body{
-            background-image: url('image/메인페이지_최종배경.jpg');
+            background-image: url('image/main.jpg');
             background-size : cover ;
         }
     </style>
@@ -25,6 +25,8 @@
     <!--scroll javascript-->
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--popup css-->
+    <link rel="stylesheet" href="css/popup.css">  
     <!--icon-->
     <link href="image/icon_tree.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
@@ -32,31 +34,7 @@
 </head>
 <body>
     <header>
-        <!--nav-->
-        <nav>
-            <ul>
-                <li style="color :black" class = "nav_txt">
-                    <a href="#home" class="a_txt">HOME
-                        <span class="sub">link to home</span>
-                    </a>
-                </li>
-                <li style="color :black" class = "nav_txt">
-                    <a href="#qrCode" class="a_txt">QRCODE
-                        <span class="sub">link to QRCODE</span>
-                    </a>
-                </li>
-                <li style="color :black" class = "nav_txt">
-                    <a href="#story" class="a_txt">STORY
-                        <span class="sub">link to STORY</span>
-                    </a>
-                </li>
-                <li style="color :black" class = "nav_txt">
-                    <a href="#game" class="a_txt">GAME
-                        <span class="sub">link to GAME</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+  
     </header>
     <a name = "home">
     <!--bird 애니메이션-->
@@ -75,7 +53,7 @@
 
     <!--메인 로고 임시-->
     <div>
-        <a href="#"><img src="image/로고_임시.png" alt="" class = "main_logo"></a>
+        <a href="#"><img src="image/logo.png" alt="" class = "main_logo"></a>
     </div>
    <!--스토리-->
    <div>
@@ -155,7 +133,7 @@
             <span>*스마트폰을 이용해 큐알코드에 접속하세요* </span>
         </div>
         <div>
-            <img src="image/큐알코드.png" alt="" class = "qr">
+            <img src="image/QR.png" alt="" class = "qr">
         </div>
     </div>
 
@@ -171,13 +149,26 @@
             <span>*아이콘 클릭시 게임 화면으로 이동합니다* </span>
         </div>
         <div>
-            <img src="image/게임아이콘.png" alt="" class = "game_main">
+            <img src="image/GameIcon.png" alt="" class = "game_main">
         </div>
         <div>
-            <img src="image/게임아이콘_글.png" alt="" class = "game_txt">
+            <img src="image/GameIcon_text.png" alt="" class = "game_txt">
         </div>
     </div>
-
+    <a href="#layer2" class="btn-example">팝업확인용</a>
+    <div class="dim-layer">
+        <div class="dimBg"></div>
+        <div id="layer2" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-conts">
+                <!--context-->게임화면
+                <div class="btn-r">
+                    <a href="#" class="btn-layerClose">닫기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!--환경단체사이트-->
     <div>
         <div class = "h_ev_txt">
@@ -223,7 +214,7 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="js/pop.js"></script> 
     <script>
         AOS.init({
             easing: 'ease-out-back',
@@ -231,7 +222,7 @@
         });
  
     </script>
-
-
+    
 </body>
+
 </html>
