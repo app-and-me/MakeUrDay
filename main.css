@@ -23,27 +23,10 @@ body::-webkit-scrollbar{
     font-weight: normal;
     font-style: normal;
 }
-*.nav_txt{
-    font-family: 'NanumSquare', sans-serif !important;
-    font-size: 15px;
-    float: right;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 20px;
-
-}
 .a_txt{
     position: relative; 
     text-decoration: none;
     color: black;
-}
-.a_txt .sub{
-    display: block; 
-    font-size: 10px; 
-    line-height: 20px; 
-    opacity: 0; 
-    transition: all 0.5s; 
-    transform: translateY(-8px);
 }
 .a_txt::before{
     display: block; 
@@ -289,7 +272,7 @@ body::-webkit-scrollbar{
 .app_main{
     text-align: left;
     float: left;
-    padding-left: 350px;
+    padding-left: 50px;
     padding-top:500px;
     padding-bottom: 80px;
 }
