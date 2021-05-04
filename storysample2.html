@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
+    <title>Make Ur Day</title>
+    <style>
+        .visual {position: relative;}
+        
+        .visual button {position: absolute; z-index: 10; top: 50%; transform: translateY(-50%);
+            width: 71px; height: 71px; border-radius: 100%; background: rgba(0,0,0,.5);
+            border: none; }
+
+        .visual button:before{ font-family: 'xeicon'; color: #fff; font-size: 45px;}
+        .visual button.slick-prev {left: 50px; font-size: 0; color:transparent;}
+        .visual button.slick-prev:before {content: "\e93d"; font-family: 'xeicon';}
+        .visual button.slick-next {right: 50px; font-size: 0; color:transparent;}
+        .visual button.slick-next:before {content: "\e940"; font-family: 'xeicon';}
+    </style>
+</head>
+<body>
+
+
+    <!--<i class="xi-angle-left"></i>
+    <i class="xi-angle-right"></i>-->
+    <section class="visual">
+        <div><img src="image/story/re/story1_1.jpg"></div>
+        <div><img src="image/story/re/story1_2.jpg"></div>
+        <div><img src="image/story/re/story1_3.jpg"></div>
+        <div><img src="image/story/re/story1_4.jpg"></div>
+    </section>
+
+    <script type="text/javascript">
+        $('.visual').slick();
+    </script>
+</body>
+</html>

@@ -28,6 +28,7 @@
         .section .slidelist > li > a {
             display: block;
             position: relative;
+            width: 100%;
         }
         .section .slidelist > li > a img {
             width: 100%;
@@ -37,16 +38,16 @@
             z-index: 10;
             top: 50%;
             transform: translateY(-50%);
-            padding: 50px;
+            padding: 25px;
             cursor: pointer;
         }
         .section .slidelist .left {
             left: 30px;
-            background: url('image/test/left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
+            background: url('image/story/circlearrow_left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
         }
         .section .slidelist .right {
             right: 30px;
-            background: url('image/test/right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
+            background: url('image/story/circlearrow_right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
         }
         .section [id="slide01"]:checked ~ .slidewrap .slidelist > li { transform: translateX(0%); }
         .section [id="slide02"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-100%); }
@@ -66,28 +67,28 @@
                 <li>
                     <a>
                         <label for="slide04" class="left"></label>
-                        <img src="image/test/slide01.jpg"> <!--사진 자리-->
+                        <img src="image/story/story1_1.jpg"> <!--사진 자리-->
                         <label for="slide02" class="right"></label>
                     </a>
                 </li>
                 <li>
                     <a>
                         <label for="slide01" class="left"></label>
-                        <img src="image/test/slide02.jpg"> <!--사진 자리-->
+                        <img src="image/story/story1_2.jpg"> <!--사진 자리-->
                         <label for="slide03" class="right"></label>
                     </a>
                 </li>
                 <li>
                     <a>
                         <label for="slide02" class="left"></label>
-                        <img src="image/test/slide03.jpg"> <!--사진 자리-->
+                        <img src="image/story/story1_3.jpg"> <!--사진 자리-->
                         <label for="slide04" class="right"></label>
                     </a>
                 </li>
                 <li>
                     <a>
                         <label for="slide03" class="left"></label>
-                        <img src="image/test/slide.jpg"> <!--사진 자리-->
+                        <img src="image/story/story1_4.jpg"> <!--사진 자리-->
                         <label for="slide01" class="right"></label>
                     </a>
                 </li>
