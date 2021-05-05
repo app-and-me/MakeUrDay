@@ -414,7 +414,7 @@ body::-webkit-scrollbar{
 /* 모바일 반응형 */
 @media all and (max-width:767px){
     body{
-        background-image: url('image/MainImage.jpg');
+        background-image: url('image/main.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
