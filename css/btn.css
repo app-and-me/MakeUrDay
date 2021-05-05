@@ -2,9 +2,9 @@
 body .button {
   width: 120px;
   height: 40px;
-  background: #f3f0f1;
+  background: #fcf7f7;
   position: relative;
-  background: #f3f0f1;
+  background: #fcf7f7;
   margin-bottom: 25px;
   border-radius: 32px;
   text-align: center;
@@ -21,8 +21,6 @@ body .button span {
 }
 
 body .button:nth-child(1) {
-  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
   color: #000000;
 }
 
@@ -41,19 +39,12 @@ body .button:nth-child(1):active {
 
 body .button:nth-child(2) {
   opacity: 0.3;
-  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
-  color: #000000;
+  
 }
-
 body .button:nth-child(3) {
-  -webkit-box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5), inset 3px 3px 6px rgba(0, 0, 0, 0.1);
   color: #000000;
 }
 
 body .button:nth-child(3):hover {
   opacity: 1;
-  -webkit-box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.8), 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
