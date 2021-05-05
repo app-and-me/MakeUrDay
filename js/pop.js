@@ -1,37 +1,60 @@
-$('.btn-example').click(function(){
-    var $href = $(this).attr('href');
-    layer_popup($href);
-});
-function layer_popup(el){
-
-    var $el = $(el);    //레이어의 id를 $el 변수에 저장
-    var isDim = $el.prev().hasClass('dimBg'); //dimmed 레이어를 감지하기 위한 boolean 변수
-
-    isDim ? $('.dim-layer').fadeIn() : $el.fadeIn();
-
-    var $elWidth = ~~($el.outerWidth()),
-        $elHeight = ~~($el.outerHeight()),
-        docWidth = $(document).width(),
-        docHeight = $(document).height();
-
-    // 화면의 중앙에 레이어를 띄운다.
-    if ($elHeight < docHeight || $elWidth < docWidth) {
-        $el.css({
-            marginTop: -$elHeight /2,
-            marginLeft: -$elWidth/2
-        })
-    } else {
-        $el.css({top: 0, left: 0});
-    }
-
-    $el.find('a.btn-layerClose').click(function(){
-        isDim ? $('.dim-layer').fadeOut() : $el.fadeOut(); // 닫기 버튼을 클릭하면 레이어가 닫힌다.
-        return false;
+(function(){
+    var $content = $('.modal_info').detach();
+  
+    $('.open_button').on('click', function(e){
+      modal.open({
+        content: $content,
+        width: 540,
+        height: 270,
+      });
+      
+      $content.addClass('modal_content');
+      $('.modal, .modal_overlay').addClass('display');
+      $('.open_button').addClass('load');
     });
-
-    $('.layer .dimBg').click(function(){
-        $('.dim-layer').fadeOut();
-        return false;
+  }());
+  
+  var modal = (function(){
+  
+    var $close = $('<button role="button" class="modal_close" title="Close"><span></span></button>');
+    var $content = $('<div class="modal_content"/>');
+    var $modal = $('<div class="modal"/>');
+    var $window = $(window);
+  
+    $modal.append($content, $close);
+  
+    $close.on('click', function(e){
+      $('.modal, .modal_overlay').addClass('conceal');
+      $('.modal, .modal_overlay').removeClass('display');
+      $('.open_button').removeClass('load');
+      e.preventDefault();
+      modal.close();
     });
-
-}
+  
+    return {
+      center: function(){
+        var top = Math.max($window.height() - $modal.outerHeight(), 0) / 2;
+        var left = Math.max($window.width() - $modal.outerWidth(), 0) / 2;
+        $modal.css({
+          top: top + $window.scrollTop(),
+          left: left + $window.scrollLeft(),
+        });
+      },
+      open: function(settings){
+        $content.empty().append(settings.content);
+  
+        $modal.css({
+          width: settings.width || 'auto',
+          height: settings.height || 'auto'
+        }).appendTo('body');
+  
+        modal.center();
+        $(window).on('resize', modal.center);
+      },
+      close: function(){
+        $content.empty();
+        $modal.detach();
+        $(window).off('resize', modal.center);
+      }
+    };
+  }());
