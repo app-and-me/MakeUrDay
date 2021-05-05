@@ -65,12 +65,14 @@ body::-webkit-scrollbar{
     opacity: 1;
     transform: translateY(0);
 }
+/* 메인 로고 */
 .main_logo{
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     display: block;
     margin: 0 auto;
 }
+/* 스토리 */
 .h_txt{
     font-family: 'GongGothicMedium';
     font-size: 40px;
@@ -141,7 +143,7 @@ body::-webkit-scrollbar{
     font-size: 40px;
     color: #2B4235;
     text-align: center;
-    padding-top: 650px;
+    padding-top: 1500px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -195,14 +197,30 @@ body::-webkit-scrollbar{
     padding-top: 5px;
     margin-bottom: -180px;
 }
-.game_main{
-    display: block;
-    margin: 0 auto;
+.game_line{
+    position: relative;
+}
+.game_1{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, 170%);
+    
+}
+.game_2{
+    width: 130px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(160%, 120%);
 }
 .game_txt{
     display: block;
     margin: 0 auto;
-    margin-top: -900px;
+    margin-top: -250px;
 }
 /* 환경 단체 사이트 */
 .h_ev_txt{
@@ -272,8 +290,8 @@ body::-webkit-scrollbar{
 .app_main{
     text-align: left;
     float: left;
-    padding-left: 50px;
-    padding-top:500px;
+    padding-left: 350px;
+    padding-top:550px;
     padding-bottom: 80px;
 }
 .app{
@@ -288,7 +306,7 @@ body::-webkit-scrollbar{
     text-align: left;
     float: right;
     padding-right: 350px;
-    padding-top:500px;
+    padding-top:550px;
     padding-bottom: 80px;
 }
 .member{
