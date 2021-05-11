@@ -31,8 +31,8 @@ https://areyh817.github.io/Make_Ur_Day/
 ## MEMBER
 --------------------------------
 * **[김하늘](https://github.com/KimSky904)** : Full Stack Development
-* **윤채원** : Back-and Development
-* **오윤서** : Back-and Development
-* **조혜라** : Full Stack Development
+* **[윤채원](https://github.com/chaewon0228)** : Back-and Development
+* **[오윤서](https://github.com/yo-nseo)** : Back-and Development
+* **[조혜라](https://github.com/areyh817)** : Full Stack Development
 * **이은서** : UI/UX Designer
 * **조하빈** : UI/UX Designer
