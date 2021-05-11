@@ -6,14 +6,14 @@
 
 ## 화면
 >> 메인화면
-(image/prototype/main_01.jpg)
+![메인화면](image/prototype/main_01.jpg)
 
 --------------------------------
 
 >> QR코드 및 GAME
-(image/prototype/main_02.jpg)
+![QR코드 및 GAME](image/prototype/main_02.jpg)
 
 --------------------------------
 
 >> 환경단체 사이트 제공
-(image/prototype/main_03.jpg)
+![환경단체 사이트 제공](image/prototype/main_03.jpg)
