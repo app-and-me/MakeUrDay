@@ -21,13 +21,18 @@
 ![환경단체 사이트 제공](image/prototype/main_03.jpg)
 
 
+--------------------------------
+### :bust_in_silhouette: 호스팅 주소 :bust_in_silhouette:
+https://areyh817.github.io/Make_Ur_Day/
+
+
 
 
 ## MEMBER
 --------------------------------
-* **김하늘 : Full Stack Developmen
-* **윤채원 : Full Stack Developmen
-* **오윤서 : Full Stack Developmen
-* **조혜라 : Full Stack Developmen
-* **이은서 : Desing
-* **조하빈 : Desing
+* **김하늘** : Full Stack Developmen
+* **윤채원** : Full Stack Developmen
+* **오윤서** : Full Stack Developmen
+* **조혜라** : Full Stack Developmen
+* **이은서** : Desing
+* **조하빈** : Desing
