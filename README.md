@@ -22,7 +22,7 @@
 
 
 --------------------------------
-### :bust_in_silhouette: 호스팅 주소 :bust_in_silhouette:
+### :computer: 호스팅 주소 :computer:
 https://areyh817.github.io/Make_Ur_Day/
 
 
@@ -30,9 +30,9 @@ https://areyh817.github.io/Make_Ur_Day/
 
 ## MEMBER
 --------------------------------
-* **김하늘** : Full Stack Developmen
-* **윤채원** : Full Stack Developmen
-* **오윤서** : Full Stack Developmen
-* **조혜라** : Full Stack Developmen
+* **김하늘** : Full Stack Development
+* **윤채원** : Full Stack Development
+* **오윤서** : Full Stack Development
+* **조혜라** : Full Stack Development
 * **이은서** : Desing
 * **조하빈** : Desing
