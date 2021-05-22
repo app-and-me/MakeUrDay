@@ -5,14 +5,16 @@
     font-style: normal;
 }
 #screen {
-	width:600px; 
-	height:600px;
-	display:block; 
-	margin:auto;
-	text-decoration:none;
+    height: 100vh;
 	background-image:url("backg.png");
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: url("backg.png") no-repeat center/cover;
+
+	text-decoration:none;
 	color:#000;
-	background-size: contain;
+	display:block; 
 }
 
 #score {
