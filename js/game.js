@@ -404,8 +404,8 @@ DungGame.prototype = {
 	gameReady : function() {
 		
 		this.showMessage(
-			'<div style="font-size:1.5em;">Trash Rain</div>' +
-			'<div style="font-size:0.5em; color:white; padding:25px 0px;">HIT [SPACE] KEY</div>'
+			'<div style="font-size:1.5em; ">Trash Rain</div>' +
+			'<div style="font-size:0.65em; color:white; padding:22px 0px;">HIT [SPACE] KEY</div>'
 		);
 	},
 	
