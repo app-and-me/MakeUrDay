@@ -1,0 +1,91 @@
+#sky {
+    position: absolute;
+    height: 880px;
+    width: 990px;
+}
+#hill {
+    position: absolute;
+    width: 990px;
+    height: 400px;
+    top: 490px;
+}
+#box {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    top: 90px;
+    left: 90px;
+}
+#question{
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    top: 180px;
+    left: 150px;
+}
+#questionbox {
+    position: absolute;
+    width: 200px;
+    top: 60px;
+    left: 390px;
+}
+
+.ox_box {
+    position: absolute;
+    width: 200px;
+    top: 500px;
+    left: 150px;
+}
+.ox_box2 {
+    position: absolute;
+    width: 200px;
+    top: 500px;
+    left: 650px;
+}
+
+#ox_o {
+    position: absolute;
+    width: 150px;
+    top: 500px;
+    left: 155px;
+    cursor: pointer;
+    padding: 17px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 30px 30px 30px 30px;
+}
+#ox_x {
+    position: absolute;
+    width:140px;
+    top: 505px;
+    left: 655px;
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 27px;
+    padding-right: 21px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#answer_box {
+    position: absolute;
+    width: 600px;
+}
+#answer {
+    position: absolute;
+    width: 400px;
+    top: 90px;
+    left: 230px;
+}
+#all_answer {
+    position: absolute;
+    width: 400px;
+    top: 300px;
+    left: 110px;
+}
+#answer_ok {
+    position: absolute;
+    width: 200px;
+    top: 400px;
+    left: 210px;
+    cursor: pointer;
+}
