@@ -23,9 +23,11 @@
     <link rel="stylesheet" href="css/btn.css">  
     <!--scroll css-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--scroll javascript-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--popup css-->
     <link rel="stylesheet" href="css/popup.css">  
     <!--icon-->
@@ -33,7 +35,7 @@
     <title>Make Ur Day</title>
     
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <header>
   
     </header>
@@ -73,13 +75,12 @@
     </div>
 
     <!--떠다니는 쓰레기 애니메이션-->
-    <!--<div class="waving">
+    <div class="waving">
         <img src="image/waving_vinly.png" alt="waving_vinly1" class="waving_vinly1">
     </div>
     <div class="waving">
         <img src="image/waving_phone.png" alt="waving_phone" class="waving_phone">
     </div>
-    -->
 
     <!--스토리 2 -->
     <div>
@@ -96,14 +97,9 @@
     </div>
 
     <!--떠다니는 쓰레기 애니메이션-->
-    <!--<div class="waving">
+    <div class="waving">
         <img src="image/waving_can.png" alt="waving_can" class="waving_can">
     </div>
-    <div class="waving">
-        <img src="image/waving_vinly.png" alt="waving_vinly2" class="waving_vinly2">
-    </div>
-    -->
-
     <!--스토리 3 -->
     <div>
         <div class ="b_txt">
@@ -118,13 +114,10 @@
     </div>
 
     <!--떠다니는 쓰레기 애니메이션-->
-    <!--<div class="waving">
+    <div class="waving">
         <img src="image/waving_box.png" alt="waving_box" class="waving_box">
     </div>
     <script src="https://cdn.jsdelivr.net/gh/hi098123/prism-for-tistory/prism.js"></script>
-    -->
-
-    
     <!--QR코드-->
     <div>
         <div class = "h_qr_txt">
@@ -136,7 +129,8 @@
         <div class = "b_qr_txt">
             <span>*스마트폰을 이용해 큐알코드에 접속하세요* </span>
         </div>
-        <div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <img src="image/QR.png" alt="" class = "qr">
         </div>
     </div>
@@ -152,7 +146,8 @@
         <div class = "b_game_txt">
             <span>*아이콘 클릭시 게임 화면으로 이동합니다* </span>
         </div>
-        <div class = "game_line">
+        <div class = "game_line" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <a href="#none" onClick="window.open('game.html', 'Trash',
             'width=600, height=600, left='+((window.screen.width / 2) - (600 / 2))+', top='+((window.screen.height /2) - (600 / 2))+', screenX='+((window.screen.width / 2) - (600 / 2))+', screenY= '+((window.screen.height /2) - (600 / 2))+'')">
                 <img src="image/게임아이콘_상자.png" alt="" class = "game_1" />
@@ -233,6 +228,9 @@
             easing: 'ease-out-back',
             duration: 1000
         });
+    </script>
+    <script>
+        AOS.init();
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>

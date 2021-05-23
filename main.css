@@ -143,7 +143,7 @@ body::-webkit-scrollbar{
     font-size: 40px;
     color: #2B4235;
     text-align: center;
-    padding-top: 1500px;
+    padding-top: 800px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -354,7 +354,8 @@ body::-webkit-scrollbar{
     margin-left: 70%;
   }
   .waving_box{
-    margin-left: 30%;
+    margin-left: 50%;
+    margin-top: 1%;
   }
 
 
@@ -441,7 +442,7 @@ body::-webkit-scrollbar{
         font-family: 'GongGothicMedium';
         font-size: 48px;
         text-align: right;
-        padding-top: 650px;
+        padding-top: 300px;
         padding-right: 180px;
     }
     .m_txt2{
@@ -462,7 +463,7 @@ body::-webkit-scrollbar{
         font-family: 'GongGothicMedium';
         font-size: 48px;
         text-align: left;
-        padding-top: 560px;
+        padding-top: 300px;
         padding-left: 180px;
     }
     .b_txt2{
@@ -486,7 +487,7 @@ body::-webkit-scrollbar{
     font-size: 50px;
     color: #2B4235;
     text-align: center;
-    padding-top: 1150px;
+    padding-top: 900px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -638,7 +639,7 @@ body::-webkit-scrollbar{
     text-align: left;
     float: left;
     padding-left: 350px;
-    padding-top:580px;
+    padding-top:620px;
     padding-bottom: 80px;
 }
 .app{
@@ -653,7 +654,7 @@ body::-webkit-scrollbar{
     text-align: left;
     float: right;
     padding-right: 350px;
-    padding-top:580px;
+    padding-top:620px;
     padding-bottom: 80px;
 }
 .member{
