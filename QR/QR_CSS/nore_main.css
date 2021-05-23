@@ -32,11 +32,12 @@
 
 /* 반응형 모바일 */
 @media all and (max-width:767px){
+    img { display : block; margin : auto;}
     .main_box{
         position: relative;
     }
     .main_img{
-        padding-top: 200px;
+        padding-top: 150px;
         width: 420px;
         height: 700px;
     }
@@ -54,10 +55,10 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -200%);
+        transform: translate(-50%, -180%);
     }
     .x_img{
-        width: 250px;
+        width: 300px;
         height: 80px;
     }
     .x_txt{

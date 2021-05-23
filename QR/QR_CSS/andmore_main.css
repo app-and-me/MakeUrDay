@@ -52,9 +52,19 @@
         position: relative;
     }
     .main_img{
-        padding-top: 200px;
+        padding-top: 150px;
         width: 420px;
         height: 700px;
+    }
+    .logo_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -186%);
+    }
+    .mainlogo{
+        width: 200px;
+        height: 200px;
     }
     .elec_box{
         position: absolute;
@@ -63,7 +73,7 @@
         transform: translate(-50%, -200%);
     }
     .elec_img{
-        width: 250px;
+        width: 300px;
         height: 80px;
     }
     .elec_txt{
@@ -83,7 +93,7 @@
         transform: translate(-50%, -50%);
     }
     .food_img{
-        width: 250px;
+        width: 300px;
         height: 80px;
     }
     .food_txt{
