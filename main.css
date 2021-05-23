@@ -385,7 +385,7 @@ body::-webkit-scrollbar{
 }
 
 
-/* 데스크탑 반응형 */
+/* 데스크탑 반응형 (1920*1080) 이상 */
 @media all and (min-width:1920px) {
     body{
         background-image: url('image/main.jpg');
@@ -418,7 +418,7 @@ body::-webkit-scrollbar{
     }
     .h_txt{
         font-family: 'GongGothicMedium';
-        font-size: 55px;
+        font-size: 48px;
         text-align: left;
         padding-top: 900px;
         padding-left: 180px;
@@ -426,7 +426,7 @@ body::-webkit-scrollbar{
     .h_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: left;
-        font-size: 25px;
+        font-size: 24px;
         padding-top: 30px;
         padding-left: 180px;
     }
@@ -439,7 +439,7 @@ body::-webkit-scrollbar{
     }
     .m_txt{
         font-family: 'GongGothicMedium';
-        font-size: 55px;
+        font-size: 48px;
         text-align: right;
         padding-top: 650px;
         padding-right: 180px;
@@ -447,7 +447,7 @@ body::-webkit-scrollbar{
     .m_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: right;
-        font-size: 25px;
+        font-size: 24px;
         padding-top: 30px;
         padding-right: 180px;
     }
@@ -460,7 +460,7 @@ body::-webkit-scrollbar{
     }
     .b_txt{
         font-family: 'GongGothicMedium';
-        font-size: 55px;
+        font-size: 48px;
         text-align: left;
         padding-top: 560px;
         padding-left: 180px;
@@ -468,7 +468,7 @@ body::-webkit-scrollbar{
     .b_txt2{
         font-family: 'NanumSquare', sans-serif !important;
         text-align: left;
-        font-size: 25px;
+        font-size: 24px;
         padding-top: 30px;
         padding-left: 180px;
     }
@@ -483,15 +483,15 @@ body::-webkit-scrollbar{
 .h_qr_txt{
     font-family: 'GongGothicMedium';
     font-weight: bold;
-    font-size: 65px;
+    font-size: 50px;
     color: #2B4235;
     text-align: center;
-    padding-top: 1000px;
+    padding-top: 1150px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #2B4235;
     text-align: center;
     padding-top: 30px;
@@ -500,7 +500,7 @@ body::-webkit-scrollbar{
 .b_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color: #2B4235;
     text-align: center;
     display: block;
@@ -508,8 +508,8 @@ body::-webkit-scrollbar{
     margin-bottom: -250px;
 }
 .qr{
-    width: 1500px;
-    height: 1100px;
+    width: 1300px;
+    height: 950px;
     display: block;
     margin: 0 auto;
 }
@@ -518,7 +518,7 @@ body::-webkit-scrollbar{
 .h_game_txt{
     font-family: 'GongGothicMedium';
     font-weight: bold;
-    font-size: 65px;
+    font-size: 50px;
     color: #2B4235;
     text-align: center;
     padding-top: 60px;
@@ -526,7 +526,7 @@ body::-webkit-scrollbar{
 .m_game_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #2B4235;
     text-align: center;
     padding-top: 30px;
@@ -535,7 +535,7 @@ body::-webkit-scrollbar{
 .b_game_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color: #2B4235;
     text-align: center;
     display: block;
@@ -546,42 +546,42 @@ body::-webkit-scrollbar{
     position: relative;
 }
 .game_1{
-    width: 380px;
-    height: 220px;
+    width: 320px;
+    height: 160px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-140%, 140%);
+    transform: translate(-135%, 200%);
     
 }
 .game_2{
-    width: 210px;
-    height: 360px;
+    width: 180px;
+    height: 320px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(125%, 75%);
+    transform: translate(115%, 75%);
 }
 .game_txt{
-    width: 1600px;
-    height: 1200px;
+    width: 1300px;
+    height: 850px;
     display: block;
     margin: 0 auto;
-    margin-top: -220px;
+    margin-top: 100px;
 }
 /* 환경 단체 사이트 */
 .h_ev_txt{
     font-family: 'GongGothicMedium';
     font-weight: bold;
-    font-size: 65px;
+    font-size: 50px;
     color: #2B4235;
     text-align: center;
-    padding-top: 500px;
+    padding-top: 800px;
 }
 .m_ev_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #2B4235;
     text-align: center;
     padding-top: 30px;
@@ -590,7 +590,7 @@ body::-webkit-scrollbar{
 .b_ev_txt{
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: #2B4235;
     text-align: center;
     display: block;
@@ -602,8 +602,8 @@ body::-webkit-scrollbar{
     position: relative;
 }
 .ev_1{
-    width: 360px;
-    height: 120px;
+    width: 320px;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -611,23 +611,23 @@ body::-webkit-scrollbar{
 }
 .ev_2{
     position: absolute;
-    width: 360px;
-    height: 120px;
+    width: 320px;
+    height: 100px;
     top: 50%;
     left: 50%;
     transform: translate(10%, 250%);
 }
 .ev_3{
-    width: 360px;
-    height: 120px;
+    width: 320px;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-110%, 400%);
 }
 .ev_4{
-    width: 360px;
-    height: 120px;
+    width: 320px;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -638,7 +638,7 @@ body::-webkit-scrollbar{
     text-align: left;
     float: left;
     padding-left: 350px;
-    padding-top:550px;
+    padding-top:580px;
     padding-bottom: 80px;
 }
 .app{
@@ -653,7 +653,7 @@ body::-webkit-scrollbar{
     text-align: left;
     float: right;
     padding-right: 350px;
-    padding-top:550px;
+    padding-top:580px;
     padding-bottom: 80px;
 }
 .member{
