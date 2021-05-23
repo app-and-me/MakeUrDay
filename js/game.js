@@ -185,13 +185,13 @@ function Man(_game) {
 		
 		img.object.style.position = "absolute";
 		img.object.style.top = "500px";
-		img.object.style.left = "280px";
+		img.object.style.left = "269px";
 		
 		game.screen.appendChild(img.object);
 	};
 	
 	this.collision = function(dung_x) {
-		return (Math.abs(dung_x - (posx + 24 / 2)) < 58);
+		return (Math.abs(dung_x - (posx + 40 / 2)) < 58);
 	};
 	
 	this.setLeft = function(x) {
@@ -402,7 +402,7 @@ DungGame.prototype = {
 	},
 	
 	gameReady : function() {
-		
+		//<img src="image/game/gLogo.png">
 		this.showMessage(
 			'<div style="font-size:1.5em; ">Trash Rain</div>' +
 			'<div style="font-size:0.65em; color:white; padding:22px 0px;">HIT [SPACE] KEY</div>'
