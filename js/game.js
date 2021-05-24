@@ -386,8 +386,14 @@ DungGame.prototype = {
 		this.message.innerHTML = msg;
 		size = [ this.message.offsetWidth, this.message.offsetHeight ];
 		
-		this.message.style.left = (this.size[0] - size[0]) / 2 + "px";
-		this.message.style.top = (this.size[1] - size[1]) / 2 + "px";
+		if(this.message.offsetHeight > 55 ) {
+			this.message.style.left = "170px"
+			this.message.style.top = "200px"
+		}
+		else {
+			this.message.style.left = (this.size[0] - size[0]) / 2 + "px";
+			this.message.style.top = (this.size[1] - size[1]) / 2 + "px";
+		}
 		this.message.style.visibility = "visible";
 		
 		if (autohide) {
@@ -402,10 +408,9 @@ DungGame.prototype = {
 	},
 	
 	gameReady : function() {
-		//<img src="image/game/gLogo.png">
 		this.showMessage(
-			'<div style="font-size:1.5em; ">Trash Rain</div>' +
-			'<div style="font-size:0.65em; color:white; padding:22px 0px;">HIT [SPACE] KEY</div>'
+			'<div style="font-size:1.5em; "><img src="image/game/gLogo.png"></div>' +
+			'<div style="font-size:0.65em; color:white; padding:22px 5px; ">HIT [SPACE] KEY</div>'
 		);
 	},
 	
