@@ -32,22 +32,17 @@ ImageList.prototype = {
 }
 
 function Dung(_game) {
-
 	// 게임화면
-	var game;
-	
+	let game;
 	// 이미지 객체
-	var img;
-	
+	let img;
 	//	위치
-	var pos = [ undefined, undefined ];
-	
+	let pos = [ undefined, undefined ];
 	// 타이머
-	var timer;
-	var timeout;
-	
+	let timer;
+	let timeout;
 	// 상태
-	var index;
+	let index;
 	
 	this.initialize = function(_game) {
 		
@@ -70,8 +65,7 @@ function Dung(_game) {
 	};
 	
 	this.ready = function() {
-		
-		var x = parseInt(Math.random() * (game.size[0] - 22));
+		let x = parseInt(Math.random() * (game.size[0] - 22));
 		
 		img.showImage(0);
 		this.setPosition(x, 0);
@@ -80,8 +74,7 @@ function Dung(_game) {
 	};
 	
 	this.start = function(delay) {
-		
-		var self = this;
+		let self = this;
 		
 		this.ready();
 		
@@ -100,36 +93,25 @@ function Dung(_game) {
 	};
 	
 	this.drop = function() {
-		
 		if (index < 0) {
-			
-			/*if (index > -3) // 바닥에 떨어져도 어느정도까지는 충돌체크
-				if (game.playing && game.man.collision(pos[0] + 22 / 2)) // 충돌했으면
-					game.gameOver();*/
-			
 			switch (index--) {
 			case -1: case -2:
 				img.showImage(1);
 				break;
-				
 			case -3: case -4:
 				img.showImage(2);
 				break;
-			
 			case -5:
 				this.start(Math.random() * 1000);
 			}
-
 			return;
 		}
-		
 		// 떨어지는 속도
-		var incr = index++;
+		let incr = index++;
 		if (incr > 20) incr = 20; // 최대 속도
 		
 		pos[1] += incr;
-		
-		var screen_height = game.size[1];
+		let screen_height = game.size[1];
 		
 		// 바닥에 닿았으면
 		if (pos[1] >= screen_height) {
@@ -137,7 +119,6 @@ function Dung(_game) {
 			pos[1] = screen_height;
 			index = -1;
 		}
-		
 		this.setPosition(pos[0], pos[1]);
 
 		// 바닥과 거의 가까워졌으면 (충돌검사)
@@ -146,41 +127,30 @@ function Dung(_game) {
 				game.gameOver();
 		}
 	};
-	
 	this.initialize(_game);
 }
 
 function Man(_game) {
-	
 	// 게임객체
-	var game;
-	
+	let game;
 	// 이미지 객체
-	var img;
-	
+	let img;
 	//	위치
-	var posx = undefined;
-	
+	let posx = undefined;
 	// 타이머
-	var timer;
-	
+	let timer;
 	// 미끄러운 정도 (0 에 가까울수록 미끄럽다)
-	var slip = 1.0;
-
-	var dir;
-
-	var action = 0;
-	
+	let slip = 1.0;
+	let dir;
+	let action = 0;
 	// 스피드
-	var speed = 0;
+	let speed = 0;
 	
-	var step = 1.5;
-	var max_speed = 30;
+	let step = 1.5;
+	let max_speed = 30;
 	
 	this.initialize = function(_game) {
-		
 		game = _game;
-		
 		img = new ImageList("image/game/all.gif");
 		
 		img.object.style.position = "absolute";
@@ -191,7 +161,7 @@ function Man(_game) {
 	};
 	
 	this.collision = function(dung_x) {
-		return (Math.abs(dung_x - (posx + 40 / 2)) < 58);
+		return (Math.abs(dung_x - (posx + 45 / 2)) < 55);
 	};
 	
 	this.setLeft = function(x) {
@@ -199,7 +169,6 @@ function Man(_game) {
 	};
 	
 	this.spawn = function() {
-
 		this.breath();
 		if (timer) window.clearInterval(timer);
 		timer = window.setInterval(this.breath.bind(this), 75);
@@ -216,7 +185,6 @@ function Man(_game) {
 	};
 	
 	this.kill = function() {
-		
 		if (timer) window.clearInterval(timer);
 		timer = null;
 
@@ -231,108 +199,86 @@ function Man(_game) {
 	
 	this.run = function(_dir) {
 		dir = _dir;
-		
-		if (dir) { // 달리기 시작
-			
-			this.move(); // 일단 한번 움직이고
+		if (dir) { //달리기 시작
+			this.move(); //한번 움직
 			if (timer) window.clearInterval(timer);
 			timer = window.setInterval(this.move.bind(this), 50);
-			
-			// $("debug").innerHTML = dir == Event.KEY_LEFT ? "left" : "right";
-			
-		} else { // 멈추기 시작
-			
+		} 
+		else { // 멈추기 시작
 			if (game.playing) img.showImage(4);
-			// $("debug").innerHTML = "stop";
 		}
 	};
 	
 	this.move = function() {
-		
 		if (!dir) { // 멈춰야 되면
+			let mul = 0.5;
+			if (Math.abs(speed) > 10) mul = 1.5;
 			
-			var mul = 0.5;
-			
-			if (Math.abs(speed) > 10) 
-				mul = 1.5;
-				
 			mul *= slip;
 			
 			if (speed == 0) {
-
 				this.breath();
 				if (timer) window.clearInterval(timer);
 				timer = window.setInterval(this.breath.bind(this), 75);
-				
 				return;
-			} else if (speed > 0) {
+			} 
+			else if (speed > 0) {
 				speed -= step * mul;
 				if (speed < 0) speed = 0;
-			} else {
+			} 
+			else {
 				speed += step * mul;
 				if (speed > 0) speed = 0;
 			}
 			
 			action = 0;
 			
-		} else { // 달리는 중이면
-			
+		} 
+		else { // 달리는 중이면
 			speed += (dir == Event.KEY_LEFT ? -step : step);
 			img.showImage((dir == Event.KEY_LEFT ? 0 : 6) + action);
-			
+	
 			action = ++action % 3;
-
 		}
-		
-		// 최대속도 제한
+		// 최대속도
 		if (speed < -max_speed) speed = -max_speed;
 		else if (speed > max_speed) speed = max_speed;
 		
 		posx = parseInt(posx) + speed;
 		
-		if (posx > game.size[0] - 60) { // 오른쪽 벽에 부딛혔으면
+		if (posx > game.size[0] - 60) { // 오른쪽 벽
 			posx = game.size[0] - 60;
 			speed = 0;
-		} else if (posx < 0) { // 왼쪽 벽에 부딛혔으면
+		} 
+		else if (posx < 0) { // 왼쪽 벽
 			posx = 0;
 			speed = 0;
 		}
-		
 		this.setLeft(posx);
 	}
-	
 	this.initialize(_game);
 }
 
 DungGame = Class.create();
 
 DungGame.prototype = {
-	
 	// 게임이 진행될 스크린
 	screen : null,
-	
 	// 스크린 크기
 	size : [ undefined, undefined ],
-	
-	// 똥객체
+	// 쓰레기 객체
 	dungs : [ ],
 	man : null,
-	
 	// 왼쪽 버튼 눌리고 있는지
 	left : false,
-	
 	// 오른쪽 버튼 눌리고 있는지
 	right : false,
-	
 	// 가장 최근에 눌린 버튼
 	recent : null,
-	
 	// 게임중
 	playing : false,
-	
 	// 점수판
 	score : null,
-	
 	// 메시지
 	message : null,
 	msgtimer : null,
@@ -348,7 +294,7 @@ DungGame.prototype = {
 			cursor = "default";;
 		}
 		
-		for (var i = 0; i < number_of_dung; i++)
+		for (let i = 0; i < number_of_dung; i++)
 			this.dungs.push(new Dung(this));
 		
 		this.man = new Man(this);
@@ -368,7 +314,6 @@ DungGame.prototype = {
 		}
 		
 		this.screen.appendChild(this.message);
-		
 		this.gameReady();
 	},
 	
@@ -377,8 +322,7 @@ DungGame.prototype = {
 	},
 	
 	showMessage : function(msg, autohide, func) {
-
-		var size;
+		let size;
 		
 		if (this.msgtimer) window.clearTimeout(this.msgtimer);
 		this.msgtimer = null;
@@ -387,7 +331,7 @@ DungGame.prototype = {
 		size = [ this.message.offsetWidth, this.message.offsetHeight ];
 		
 		if(this.message.offsetHeight > 55 ) {
-			this.message.style.left = "170px"
+			this.message.style.left = "160px"
 			this.message.style.top = "200px"
 		}
 		else {
@@ -410,12 +354,11 @@ DungGame.prototype = {
 	gameReady : function() {
 		this.showMessage(
 			'<div style="font-size:1.5em; "><img src="image/game/gLogo.png"></div>' +
-			'<div style="font-size:0.65em; color:white; padding:22px 5px; ">HIT [SPACE] KEY</div>'
+			'<div style="font-size:0.65em; color:white; padding:20px 0px;">HIT [SPACE] KEY</div>'
 		);
 	},
 	
 	gameStart : function() {
-
 		this.size = [ this.screen.clientWidth, this.screen.clientHeight ];
 		
 		for (var i = 0; i < this.dungs.length; i++)
@@ -433,7 +376,6 @@ DungGame.prototype = {
 	},
 	
 	gameOver : function() {
-
 		this.playing = false;
 		this.recent = null;
 		
@@ -442,7 +384,6 @@ DungGame.prototype = {
 	},
 	
 	onKeyDown : function(e) {
-		
 		if (e.keyCode == 32 && !this.playing) {
 			this.gameStart();
 			return;
@@ -464,12 +405,10 @@ DungGame.prototype = {
 		}
 		
 		this.man.run(this.recent);
-		
 		Event.stop(e);
 	},
 	
 	onKeyUp : function(e) {
-		
 		if (!this.playing) return;
 		if (e.keyCode != Event.KEY_LEFT && e.keyCode != Event.KEY_RIGHT) return;
 		
