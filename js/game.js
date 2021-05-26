@@ -246,8 +246,8 @@ function Man(_game) {
 		
 		posx = parseInt(posx) + speed;
 		
-		if (posx > game.size[0] - 60) { // 오른쪽 벽
-			posx = game.size[0] - 60;
+		if (posx > game.size[0] - 70) { // 오른쪽 벽
+			posx = game.size[0] - 70;
 			speed = 0;
 		} 
 		else if (posx < 0) { // 왼쪽 벽
