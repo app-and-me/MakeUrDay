@@ -152,7 +152,7 @@ body::-webkit-scrollbar-track{
     font-size: 40px;
     color: #2B4235;
     text-align: center;
-    padding-top: 800px;
+    padding-top: 1300px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -217,7 +217,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(-180%, 170%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
     
 }
 .game_2{
@@ -227,7 +226,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(160%, 120%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
 }
 .game_txt{
     display: block;
@@ -235,10 +233,6 @@ body::-webkit-scrollbar-track{
     margin-top: -250px;
 }
         
-@keyframes motion {
-	0% {margin-top: 0px;}
-	100% {margin-top: 10px;}
-}
 /* 환경 단체 사이트 */
 .h_ev_txt{
     font-family: 'GongGothicMedium';
@@ -279,7 +273,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(-110%, 350%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
 }
 .ev_2{
     position: absolute;
@@ -288,7 +281,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(10%, 350%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
 }
 .ev_3{
     width: 250px;
@@ -297,7 +289,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(-110%, 500%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
 }
 .ev_4{
     width: 250px;
@@ -306,7 +297,6 @@ body::-webkit-scrollbar-track{
     top: 50%;
     left: 50%;
     transform: translate(10%, 500%);
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
 }
 /* footer 이름 */
 .app_main{
