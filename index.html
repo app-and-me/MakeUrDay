@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preload" href="image/MainImage.jpg" as="style" crossorigin="crossorigin"> 
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="viewport" content="user-scalable=no, width=device-width">
+    <script>
+        function but(){
+            var p = window.open('game.html', 'Trash', 'width=600, height=600, left='+((window.screen.width / 2) - (600 / 2))+', top='+((window.screen.height /2) - (600 / 2))+', screenX='+((window.screen.width / 2) - (600 / 2))+', screenY= '+((window.screen.height /2) - (600 / 2))+')');
+            setTimeout(p,3000);
+        }
+    </script>
     <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
@@ -22,7 +26,7 @@
     <link rel="stylesheet" href="css/bird.css">
     <link rel="stylesheet" href="css/btn.css">  
     <!--scroll css-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--scroll javascript-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
@@ -30,6 +34,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--popup css-->
     <link rel="stylesheet" href="css/popup.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css'><link rel="stylesheet" href="css/style.css">
     <!--icon-->
     <link href="image/icon_tree.png" rel="shortcut icon" type="image/x-icon">
     <title>Make Ur Day</title>
@@ -143,16 +149,26 @@
             <span>GAME</span>
         </div>
         <div class = "m_game_txt">
-            <span>재미있는 게임으로 자연과 친해져볼래?</span>
+            <span>재미있는 게임으로 자연을 '이해' 해볼래?</span>
         </div>
         <div class = "b_game_txt">
             <span>*아이콘 클릭시 게임 화면으로 이동합니다* </span>
         </div>
         <div class = "game_line" data-aos="fade-up"
         data-aos-anchor-placement="center-bottom">
-            <a href="#none" onClick="window.open('game.html', 'Trash',
-            'width=600, height=600, left='+((window.screen.width / 2) - (600 / 2))+', top='+((window.screen.height /2) - (600 / 2))+', screenX='+((window.screen.width / 2) - (600 / 2))+', screenY= '+((window.screen.height /2) - (600 / 2))+'')">
-                <img src="image/게임아이콘_상자.png" alt="" class = "game_1" />
+            <a href="#none" onClick="but()">
+                <section class="flex scene1">
+                    <div class="confetti">
+                        <figure class="confetti__image">
+                            <svg viewBox="-250 -250 500 500" role="presentational" ></svg>
+                        </figure>
+                        <button class="button1 confetti__button" type="button">
+                            <span class="button__text ">
+                                trash rain
+                            </span>
+                        </button>
+                    </div>
+                </section>
             </a>
             <a href="#none" onClick="window.open('OXgame.html', 'ox',
             'width=700, height=700, left='+((window.screen.width / 2) - (700 / 2))+', top='+((window.screen.height /2) - (700 / 2))+', screenX='+((window.screen.width / 2) - (700 / 2))+', screenY= '+((window.screen.height /2) - (700 / 2))+'')">
@@ -226,6 +242,7 @@
 
     <!--script-->
     <script type="text/javascript" src="js/pop.js"></script> 
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="js/script.js"></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
