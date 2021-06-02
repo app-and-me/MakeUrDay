@@ -396,6 +396,35 @@ body::-webkit-scrollbar-track{
     animation-play-state: paused;
 }
 
+/* motion path 애니메이션 */
+@keyframes yAxis {
+    50% {
+        animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        transform: translateY(-300px);
+    }
+}
+ 
+@keyframes xAxis {
+    50% {
+        animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+        transform: translateX(300px);
+    }
+}
+.trash01 {
+    margin-left:500px;
+    margin-top:500px;
+    animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);    
+}
+ 
+.trash01:after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 90px;
+    background-image:url(http://www.meriqueen-woolmark.com/03_doolyit_image/birdright.jpg);
+    animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
 
 /* 데스크탑 반응형 (1920*1080) 이상 */
 @media all and (min-width:1920px) {
