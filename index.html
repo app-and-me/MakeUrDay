@@ -6,8 +6,8 @@
     <meta name="viewport" content="user-scalable=no, width=device-width">
     <script>
         function but(){
-            var p = window.open('game.html', 'Trash', 'width=600, height=600, left='+((window.screen.width / 2) - (600 / 2))+', top='+((window.screen.height /2) - (600 / 2))+', screenX='+((window.screen.width / 2) - (600 / 2))+', screenY= '+((window.screen.height /2) - (600 / 2))+')');
-            setTimeout(p,3000);
+            
+            setTimeout("window.open('game.html', 'Trash', 'width=600, height=600')",1035);
         }
     </script>
     <!--font-->
@@ -164,7 +164,7 @@
         </div>
         <div class = "game_line" data-aos="fade-up"
         data-aos-anchor-placement="center-bottom">
-            <a href="#none" onClick="but()">
+            <a href="#none" onClick="but();">
                 <section class="flex scene1">
                     <div class="confetti">
                         <figure class="confetti__image">
