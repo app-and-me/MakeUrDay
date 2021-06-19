@@ -123,7 +123,8 @@
     }
     .right_btn{
         padding-top: 10px;
-        margin-right: -140px;
+        padding-right: 30px;
+        float: right;
         width: 90px;
         height: 60px;
     }
@@ -142,13 +143,11 @@
     }
     .white_box{
         position: relative;
-        width: 350px;
-        height: 550px;
+        width: 400px;
+        height: 600px;
         top: 50%;
         left: 50%;
-        display: block;
-        margin: 0 auto;
-        transform: translate(-33.5%, 15%);
+        transform: translate(-50%, 10%);
     }
     .combine{
         position: absolute;
@@ -156,7 +155,7 @@
         height: 25px;
         top: 50%;
         left: 50%;
-        transform: translate(-25%, 80%);
+        transform: translate(-50%, 240%);
     }
     .dra_box{
         position: absolute;
@@ -173,7 +172,7 @@
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(0%, 80%);
+        transform: translate(-50%, 230%);
     }
     .Mag_box{
         position: absolute;
@@ -189,7 +188,7 @@
         height: 5px;
         top: 50%;
         left: 50%;
-        transform: translate(-48%, 1500%); 
+        transform: translate(-0%, 1500%); 
     }
     .blue_box4{
         position: absolute;
