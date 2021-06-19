@@ -212,11 +212,11 @@
     .main_txt{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 17px;
+        font-size: 15px;
         color:black;
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 280%);
+        transform: translate(-50%, 300%);
     }
 }
