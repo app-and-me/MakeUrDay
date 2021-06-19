@@ -172,7 +172,7 @@
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 80%);
+        transform: translate(-50%, 60%);
     }
     .Mag_box{
         position: absolute;
@@ -200,11 +200,11 @@
     }
     .paper_ico{
         position: absolute;
-        width: 60px;
-        height: 50px;
+        width: 40px;
+        height: 30px;
         top: 50%;
         left: 50%;
-        transform: translate(-200%, 200%); 
+        transform: translate(-180%, 180%); 
     }
     .main_txt1{
         position: absolute;
