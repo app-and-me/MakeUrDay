@@ -141,6 +141,7 @@
         position: relative;
     }
     .white_box{
+        position: relative;
         width: 400px;
         height: 600px;
         top: 50%;
