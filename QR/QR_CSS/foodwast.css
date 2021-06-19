@@ -155,7 +155,7 @@
         height: 25px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 120%);
+        transform: translate(-50%, 80%);
     }
     .dra_box{
         position: absolute;
@@ -163,7 +163,7 @@
         height: 20px;
         top: 50%;
         left: 50%;
-        transform: translate(-700%, 120%);
+        transform: translate(-700%, 80%);
     }
     .paper_txt{
         position: absolute;
@@ -172,7 +172,7 @@
         color: #9ed8d9;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 230%);
+        transform: translate(-50%, 80%);
     }
     .Mag_box{
         position: absolute;
@@ -204,7 +204,7 @@
         height: 50px;
         top: 50%;
         left: 50%;
-        transform: translate(-215%, 270%); 
+        transform: translate(-200%, 200%); 
     }
     .main_txt1{
         position: absolute;
