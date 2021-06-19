@@ -155,7 +155,7 @@
         height: 25px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 200%);
+        transform: translate(-50%, 120%);
     }
     .dra_box{
         position: absolute;
@@ -163,7 +163,7 @@
         height: 20px;
         top: 50%;
         left: 50%;
-        transform: translate(-700%, 200%);
+        transform: translate(-700%, 120%);
     }
     .paper_txt{
         position: absolute;
