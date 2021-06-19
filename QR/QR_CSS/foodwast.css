@@ -204,73 +204,46 @@
         height: 30px;
         top: 50%;
         left: 50%;
-        transform: translate(-240%, 300%); 
+        transform: translate(-250%, 340%); 
     }
     .main_txt1{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 14px;
+        font-size: 12.5px;
         color:black;
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-128%, 180%);
-    }
-    .subheading_1{
-        position: absolute;
-        font-family: 'GongGothicMedium';
-        font-size: 16px;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(50%, 960%);
+        transform: translate(-125%, 160%);
     }
     .main_txt2{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 14px;
+        font-size: 12.5px;
         color:black;
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(14%, 1500%);
-    }
-    .subheading_2{
-        position: absolute;
-        font-family: 'GongGothicMedium';
-        font-size: 16px;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-380%, 2150%);
+        transform: translate(65%, 680%);
     }
     .main_txt3{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 14px;
+        font-size: 12.5px;
         color:black;
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-140%, 450%);
-    }
-    .subheading_3{
-        position: absolute;
-        font-family: 'GongGothicMedium';
-        font-size: 16px;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(165%, 2150%);
+        transform: translate(-140%, 400%);
     }
     .main_txt4{
         position: absolute;
         font-family: 'NanumSquare', sans-serif !important;
-        font-size: 14px;
+        font-size: 12.5px;
         color:black;
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(25%, 930%);
+        transform: translate(23%, 840%);
     }
 }
