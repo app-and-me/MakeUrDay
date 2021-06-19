@@ -224,7 +224,7 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(65%, 650%);
+        transform: translate(65%, 640%);
     }
     .main_txt3{
         position: absolute;
@@ -234,7 +234,7 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-140%, 370%);
+        transform: translate(-140%, 350%);
     }
     .main_txt4{
         position: absolute;
@@ -244,6 +244,6 @@
         text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(23%, 800%);
+        transform: translate(23%, 780%);
     }
 }
