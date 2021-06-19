@@ -54,7 +54,6 @@
     }
     .main_box{
         position: relative;
-        animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
     }
     .main_img{
         padding-top: 150px;
