@@ -214,8 +214,8 @@ body::-webkit-scrollbar-track{
     width: 200px;
     height: 160px;
     position: absolute;
-    top: -30px;
-    left: 250px;
+    top: -370px;
+    left: 260px;
     transform: translate(-180%, 170%);
     
 }
