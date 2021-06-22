@@ -544,7 +544,7 @@ body::-webkit-scrollbar-track{
     font-size: 50px;
     color: #2B4235;
     text-align: center;
-    padding-top: 1200px;
+    padding-top: 1150px;
 }
 .m_qr_txt{
     font-family: 'NanumSquare', sans-serif !important;
@@ -604,12 +604,12 @@ body::-webkit-scrollbar-track{
     position: relative;
 }
 .game_1{
-    width: 280px;
-    height: 200px;
+    width: 250px;
+    height: 190px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-55%, -10%);
     
 }
 .game_2{
