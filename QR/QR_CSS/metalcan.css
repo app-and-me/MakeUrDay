@@ -5,7 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-.back_btn{
+/* .back_btn{
     width: 50px;
     height: 50px;
     padding-top: 30px;
@@ -102,7 +102,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 1800%);
-}
+} */
 
 /* 모바일 반응형 */
 @media all and (max-width:767px){
@@ -216,6 +216,6 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 168%);
+        transform: translate(-50%, 800%);
     }
 }
