@@ -151,6 +151,14 @@
     .conmbine_box{
         position: absolute;
     }
+    /*.dra_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-700%, 200%);
+    }*/
     .combine{
         position: absolute;
         width: 250px;
@@ -169,6 +177,14 @@
         left: 50%;
         transform: translate(-50%, 160%);
     }
+    /*.Mag_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(600%, 200%);
+    }*/
     .line_box{
         position: absolute;
         width: 300px;
@@ -201,6 +217,6 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 10000%);
+        transform: translate(-50%, 200%);
     }
 }

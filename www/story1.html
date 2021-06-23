@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="image/아이콘_나무.png" rel="shortcut icon" type="image/x-icon">
+    <!--icon-->
+    <link href="image/icon_tree.png" rel="shortcut icon" type="image/x-icon">
+    <title>Make Ur Day</title>
+    <style>
+        .body{
+            overflow: hidden;
+        }
+        .section input[id*="slide"] {
+            display: none;
+        }
+        .section .slidewrap {
+            max-width: 1500px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .section .slidelist {
+            white-space: nowrap;
+            font-size: 0;
+        }
+        .section .slidelist > li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            transition: all .5s;
+        }
+        .section .slidelist > li > a {
+            display: block;
+            position: relative;
+            width: 100%;
+        }
+        .section .slidelist > li > a img {
+            width: 100%;
+        }
+        .section .slidelist label {
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 25px;
+            cursor: pointer;
+        }
+        .section .slidelist .left {
+            left: 50px;
+            background: url('image/story/circlearrow_left.png') center center / 100% no-repeat; /*왼쪽 화살표*/
+        }
+        .section .slidelist .right {
+            right: 50px;
+            background: url('image/story/circlearrow_right.png') center center / 100% no-repeat; /*오른쪽 화살표*/
+        }
+        .section [id="slide01"]:checked ~ .slidewrap .slidelist > li { transform: translateX(0%); }
+        .section [id="slide02"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-100%); }
+        .section [id="slide03"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-200%); }
+        .section [id="slide04"]:checked ~ .slidewrap .slidelist > li { transform: translateX(-300%); }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide04" class="left"></label>
+                        <img src="image/story/story1_re1.jpg"> <!--사진 자리-->
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="image/story/story1_re2.jpg"> <!--사진 자리-->
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="image/story/story1_re3.jpg"> <!--사진 자리-->
+                        <label for="slide04" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="image/story/story1_re4.jpg"> <!--사진 자리-->
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+*{margin:0; padding:0;}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_box{
+    position: relative;
+}
+.main_img{
+    padding-top: 300px;
+    width: 1200px;
+    height: 1200px;
+}
+.metal_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.metal_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.glass_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+}
+.glass_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.paper_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+}
+.paper_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pet_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 700%);
+}
+.pet_txt{
+    position: absolute;
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 반응형 모바일 */
+@media all and (max-width:767px){
+    .main_box{
+        position: relative;
+    }
+    .main_img{
+        padding-top: 150px;
+        width: 420px;
+        height: 700px;
+    }
+    .logo_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -186%);
+    }
+    .mainlogo{
+        width: 200px;
+        height: 200px;
+    }
+    .metal_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -230%);
+    }
+    .metal_img{
+        width: 300px;
+        height: 80px;
+    }
+    .metal_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .glass_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+    .glass_img{
+        width: 300px;
+        height: 80px;
+    }
+    .glass_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .paper_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 70%);
+    }
+    .paper_img{
+        width: 300px;
+        height: 80px;
+    }
+    .paper_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .pet_box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 220%);
+    }
+    .pet_img{
+        width: 300px;
+        height: 80px;
+    }
+    .pet_txt{
+        position: absolute;
+        font-family: 'GongGothicMedium';
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

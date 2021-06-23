@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXresult</title>
+    <link rel="stylesheet" href="css/OXgame.css">
+</head>
+<body>
+    <img src="image/OXgame/answer_box.png" id="answer_box">
+    <img src="image/OXgame/answer_1.png" id="answer">
+    <img src="image/OXgame/all_answer.png" id="all_answer">
+    <img src="image/OXgame/answer_ok.png" id="answer_ok" onclick="self.close();">
+
+    <script>
+        temp = location.href.split("?");
+        data = temp[1].split(":");
+        correct_answer = data[0];
+        answer = document.getElementById("answer");
+        if (correct_answer == 2) {
+            answer.src = "image/OXgame/answer_2.png";
+        } else if (correct_answer == 3) {
+            answer.src = "image/OXgame/answer_3.png";
+        } else if (correct_answer == 4) {
+            answer.src = "image/OXgame/answer_4.png";
+        } else if (correct_answer == 5) {
+            answer.src = "image/OXgame/answer_5.png";
+        }
+    </script>
+</body>
+</html>

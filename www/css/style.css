@@ -1,0 +1,47 @@
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.scene1 {
+  width: 215px;
+  height: 160px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-180%, 170%);
+}
+
+.button1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.button1:focus {
+  outline: none;
+}
+.button__text {
+  background: #3867d6;
+  color: #fff;
+  padding: 1.5em 3em;
+  border-radius: 3em;
+  font: 800 1rem/1 "Lato", sans-serif;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.075em;
+  border: 3px solid transparent;
+  text-transform: uppercase;
+}
+.confetti {
+  position: relative;
+}
+.confetti__image {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

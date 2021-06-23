@@ -52,7 +52,7 @@
     left: 50%;
     transform: translate(-1000%, 1000%);
 }
-.metal_txt{
+.glass_txt{
     position: absolute;
     font-family: 'GongGothicMedium';
     font-size: 30px;
@@ -85,13 +85,13 @@
     left: 50%;
     transform: translate(-50%, 85%); 
 }
-.metal_ico{
+.glass_ico{
     position: absolute;
-    width: 120px;
-    height: 110px;
+    width: 55px;
+    height: 80px;
     top: 50%;
     left: 50%;
-    transform: translate(-280%, 570%); 
+    transform: translate(-580%, 800%); 
 }
 .main_txt{
     position: absolute;
@@ -101,7 +101,7 @@
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 1800%);
+    transform: translate(-50%, 800%);
 }
 
 /* 모바일 반응형 */
@@ -142,8 +142,8 @@
     }
     .white_box{
         position: relative;
-        width: 400px;
-        height: 600px;
+        width: 350px;
+        height: 500px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, 10%);
@@ -157,17 +157,32 @@
         height: 25px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 160%);
+        transform: translate(-50%, 120%);
     }
-    .metal_txt{
+    .dra_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-700%, 250%);
+    }
+    .glass_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
         font-size: 20px;
         color: #9ed8d9;
-        text-align: center;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 160%);
+        transform: translate(-50%, 120%);
+    }
+    .Mag_box{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(600%, 250%);
     }
     .line_box{
         position: absolute;
@@ -175,7 +190,7 @@
         height: 5px;
         top: 50%;
         left: 50%;
-        transform: translate(-48%, 1500%); 
+        transform: translate(-48%, 1700%); 
     }
     .blue_box{
         position: absolute;
@@ -183,15 +198,15 @@
         height: 300px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 50%); 
+        transform: translate(-50%, 40%); 
     }
-    .metal_ico{
+    .glass_ico{
         position: absolute;
-        width: 60px;
-        height: 50px;
-        top: 50%;
+        width: 25px;
+        height: 40px;
+        top: 50%;  
         left: 50%;
-        transform: translate(-220%, 250%); 
+        transform: translate(-450%, 240%); 
     }
     .main_txt{
         position: absolute;
@@ -201,6 +216,6 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 10000%);
+        transform: translate(-50%, 168%);
     }
 }

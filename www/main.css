@@ -749,7 +749,101 @@ body::-webkit-scrollbar-track{
 .h_txt .h_txt2{
     opacity:0;
 }       
-}  
+  
+/* 모바일 반응형 */
+@media all and (max-width:767px){
+    body{
+        background-image: url('image/main.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    header{
+        position:fixed;
+        right: 0cm;
+    }
+    .nav_txt{
+        font-family: 'NanumSquare', sans-serif !important;
+        font-size: 12px;
+        float: right;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 15px;
+    
+    }
+    .a_txt{
+        text-decoration: none;
+        color: black;
+    }
+    .h_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: left;
+        padding-top: 360px;
+        padding-left: 20px;
+    }
+    .h_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .h_btn{
+        width: 100px;
+        height: 100px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+    .m_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: right;
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .m_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: right;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-right: 20px;
+    }
+    .m_btn{
+        width: 100px;
+        height: 100px;
+        float: right;
+        padding-top: 0px;
+        padding-right: 20px;
+    }
+    .b_txt{
+        font-family: 'GongGothicMedium';
+        font-size: 18px;
+        text-align: left;
+        padding-top: 150px;
+        padding-left: 20px;
+    }
+    .b_txt2{
+        font-family: 'NanumSquare', sans-serif !important;
+        text-align: left;
+        font-size: 13px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .b_btn{
+        width: 100px;
+        height: 100px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+    .qr{
+        display: none;
+        visibility: hidden;
+        width: 0%;
+    }
+}
 
 /* 태블릿 반응형 */
 @media all and (min-width:768px) and (max-width:1023px) {
@@ -839,193 +933,10 @@ body::-webkit-scrollbar-track{
         padding-top: 0px;
         padding-left: 80px;
     }
-    /* qr */
-    .h_qr_txt{
-        font-family: 'GongGothicMedium';
-        font-weight: bold;
-        font-size: 50px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 1150px;
-    }
-    .m_qr_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 25px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 30px;
-        
-    }
-    .b_qr_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2B4235;
-        text-align: center;
-        display: block;
-        padding-top: 20px;
-        margin-bottom: -250px;
-    }
     .qr{
-        width: 1300px;
-        height: 950px;
-        display: block;
-        margin: 0 auto;
-    }
-    
-    /* game */
-    .h_game_txt{
-        font-family: 'GongGothicMedium';
-        font-weight: bold;
-        font-size: 50px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 60px;
-
-        
-    }
-    .m_game_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 25px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 30px;
-        
-    }
-    .b_game_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2B4235;
-        text-align: center;
-        display: block;
-        padding-top: 20px;
-        margin-bottom: -180px;
-    }
-    .game_line{
-        position: relative;
-    }
-    .game_1{
-        width: 250px;
-        height: 190px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-55%, -10%);
-        
-    }
-    .game_2{
-        width: 180px;
-        height: 320px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(115%, 75%);
-    }
-    .game_txt{
-        width: 1300px;
-        height: 850px;
-        display: block;
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-    /* 환경 단체 사이트 */
-    .h_ev_txt{
-        font-family: 'GongGothicMedium';
-        font-weight: bold;
-        font-size: 50px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 800px;
-    }
-    .m_ev_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 25px;
-        color: #2B4235;
-        text-align: center;
-        padding-top: 30px;
-        
-    }
-    .b_ev_txt{
-        font-family: 'NanumSquare', sans-serif !important;
-        font-weight: bold;
-        font-size: 20px;
-        color: #2B4235;
-        text-align: center;
-        display: block;
-        padding-top: 20px;
-        margin-bottom: -180px;
-    }
-    .line_1{
-        margin: 0 auto;
-        position: relative;
-    }
-    .ev_1{
-        width: 320px;
-        height: 100px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-110%, 250%);
-    }
-    .ev_2{
-        position: absolute;
-        width: 320px;
-        height: 100px;
-        top: 50%;
-        left: 50%;
-        transform: translate(10%, 250%);
-    }
-    .ev_3{
-        width: 320px;
-        height: 100px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-110%, 400%);
-    }
-    .ev_4{
-        width: 320px;
-        height: 100px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(10%, 400%);
-    }
-    /* footer 이름 */
-    .app_main{
         display: none;
+        visibility: hidden;
+        width: 0%;
     }
-    .app{
-        display: none;
-    }
-    .app_member{
-        text-align: left;
-        float: right;
-        padding-right: 350px;
-        padding-top:600px;
-        padding-bottom: 120px;
-    }
-    .member{
-        display:inline-block;
-        font-family: 'NanumSquare', sans-serif !important;
-        font-size: 17px;
-        color: white;
-        padding-top: 600px;
-        padding-left: 5px;
-        text-align: left;
-        
-    }
-    .d_member{
-        display:inline-block;
-        font-family: 'NanumSquare', sans-serif !important;
-        font-size: 17px;
-        padding-left: 5px;
-        padding-top: 5px;
-        color: white;
-        text-align: center;
-    }
+}
 }
