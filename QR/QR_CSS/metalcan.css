@@ -167,7 +167,7 @@
         left: 50%;
         transform: translate(-700%, 250%);
     }
-    .glass_txt{
+    .metal_txt{
         position: absolute;
         font-family: 'GongGothicMedium';
         font-size: 20px;
@@ -200,7 +200,7 @@
         left: 50%;
         transform: translate(-50%, 40%); 
     }
-    .glass_ico{
+    .metal_ico{
         position: absolute;
         width: 25px;
         height: 40px;
@@ -216,6 +216,6 @@
         text-align: left;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 168%);
+        transform: translate(-50%, 350%);
     }
 }
