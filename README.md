@@ -23,7 +23,7 @@
 
 --------------------------------
 ### :computer: 호스팅 주소 :computer:
-https://areyh817.github.io/Make_Ur_Day/
+https://makeurday.emirim.kr/
 
 
 
