@@ -23,7 +23,7 @@
 
 --------------------------------
 ### :computer: 호스팅 주소 :computer:
-https://makeurday.emirim.kr/
+https://areyh817.github.io/Make_Ur_Day/
 
 
 
@@ -36,8 +36,3 @@ https://makeurday.emirim.kr/
 * **[조혜라](https://github.com/areyh817)** : Full Stack Development
 * **이은서** : UI/UX Designer
 * **조하빈** : UI/UX Designer
-
---------------------------------
-* 개발기간 : 2021.03 ~ 2021.06
-* 개발언어 : HTML, CSS, Scss, JavaScript
-* 개발툴 : Visual Studio Code 
