@@ -10,18 +10,15 @@
 #### :green_heart: 메인화면 :green_heart:
 ![메인화면](image/prototype/main_01.jpg)
 
---------------------------------
 
 #### :iphone: QR코드 및 GAME :iphone:
 ![QR코드 및 GAME](image/prototype/main_02.jpg)
 
---------------------------------
 
 #### :open_hands: 환경단체 사이트 제공 :open_hands:
 ![환경단체 사이트 제공](image/prototype/main_03.jpg)
 
 
---------------------------------
 ### :computer: 호스팅 주소 :computer:
 https://makeurday.emirim.kr/
 
@@ -29,7 +26,6 @@ https://makeurday.emirim.kr/
 
 
 ## MEMBER
---------------------------------
 * **[김하늘](https://github.com/KimSky904)** : Full Stack Development
 * **[윤채원](https://github.com/chaewon0228)** : Back-and Development
 * **[오윤서](https://github.com/yo-nseo)** : Back-and Development
@@ -37,7 +33,8 @@ https://makeurday.emirim.kr/
 * **이은서** : UI/UX Designer
 * **조하빈** : UI/UX Designer
 
---------------------------------
-* 개발기간 : 2021.03 ~ 2021.06
-* 개발언어 : HTML, CSS, Scss, JavaScript
-* 개발툴 : Visual Studio Code 
+<br>
+
+개발기간 : 2021.03 ~ 2021.06<br>
+개발언어 : HTML, CSS, Scss, JavaScript<br>
+개발툴 : Visual Studio Code <br>
